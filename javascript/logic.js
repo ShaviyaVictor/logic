@@ -1,7 +1,9 @@
 
+// Challenge 1: https://javascript.plainenglish.io/15-javascript-shorthand-ultimate-cheatsheet-d1f71a363a90
+
 // ################    26052023    ################
 
-// Repeating a String 
+// ================> Repeating a String 
 //  -> Longhand 
 //  -- Using a Loop to repeat a String multiple times 
   // initialize an empty String 
@@ -11,7 +13,7 @@
 
 function repeatString(String, number) {
   let results = '';
-  for (i=0; i<number; i++) {
+  for (let i=0; i<number; i++) {
     results += String;
   }
   return results
