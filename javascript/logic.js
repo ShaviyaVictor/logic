@@ -38,7 +38,11 @@ console.log('Shaviya'.repeat(5))
 
 // =================>- Combining of Arrays
 //  -> Longhand 
-//  -- Using a for Loop
+//  -- Using a for Loop and push() method
+
+let array1 = [10, 20, 30];
+let array2 = [40, 50, 60];
+let combinedArray = [];
 
 
 
