@@ -44,6 +44,9 @@ let array1 = [10, 20, 30];
 let array2 = [40, 50, 60];
 let combinedArray = [];
 
+for (let i=0; i<array1.length; i++) {
+  combinedArray.push(array1[i])
+}
 
 
 // ################    27052023    ################
