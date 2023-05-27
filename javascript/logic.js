@@ -3,9 +3,9 @@
 
 // ################    26052023    ################
 
-// ================> Repeating a String 
+// =================> Repeating a String 
 //  -> Longhand 
-//  -- Using a Loop to repeat a String multiple times 
+//  -- Using a for Loop to repeat a String multiple times 
   // initialize an empty String 
   // for loop that increases by index until it gets to the defined number
     // equitting the initialized empty string to take the defined String incrementally
@@ -31,5 +31,21 @@ console.log(myName.repeat(5))
 console.log('Shaviya'.repeat(5))
 
 // ################    26052023    ################
+
+
+
+// ################    27052023    ################
+
+// =================>- Combining of Arrays
+//  -> Longhand 
+//  -- Using a for Loop
+
+
+
+// ################    27052023    ################
+
+
+
+
 
 
