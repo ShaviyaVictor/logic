@@ -39,6 +39,9 @@ console.log('Shaviya'.repeat(5))
 // =================>- Combining of Arrays
 //  -> Longhand 
 //  -- Using a for Loop and push() method
+// initialize the values of arrays to be concatinated and their final value initialized to an empty array 
+// using push() method in for loop to add the the arrays to our final array combination
+// printing the output
 
 let array1 = [10, 20, 30];
 let array2 = [40, 50, 60];
@@ -50,6 +53,8 @@ for (let i=0; i<array1.length; i++) {
 for (let i=0; i<array2.length; i++) {
   combinedArray.push(array2[i])
 }
+
+console.log(combinedArray);
 
 // ################    27052023    ################
 
