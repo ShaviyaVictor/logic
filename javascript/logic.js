@@ -47,7 +47,9 @@ let combinedArray = [];
 for (let i=0; i<array1.length; i++) {
   combinedArray.push(array1[i])
 }
-
+for (let i=0; i<array2.length; i++) {
+  combinedArray.push(array2[i])
+}
 
 // ################    27052023    ################
 
