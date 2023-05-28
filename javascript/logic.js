@@ -1,9 +1,9 @@
 
 // Challenge 1: https://javascript.plainenglish.io/15-javascript-shorthand-ultimate-cheatsheet-d1f71a363a90
 
-// ################    26052023    ################
+// #####  1:  26052023    #####
 
-// =================> Repeating a String 
+// =======> Repeating a String 
 //  -> Longhand 
 //  -- Using a for Loop to repeat a String multiple times 
   // initialize an empty String 
@@ -31,13 +31,13 @@ console.log(myName.repeat(5))
 
 console.log('Shaviya'.repeat(5))
 
-// ################    26052023    ################
+// #####    26052023    #####
 
 
 
-// ################    27052023    ################
+// #####  2:  27052023    #####
 
-// =================>- Combining of Arrays
+// =======> Combining of Arrays
 //  -> Longhand 
 //  -- Using a for Loop and push() method
 // initialize the values of arrays to be concatinated and their final value initialized to an empty array 
@@ -87,10 +87,20 @@ var combinedArray5 = array2.reduce((acc, val) => acc.concat(val), array1);
 console.log(combinedArray4);
 console.log(combinedArray5);
 
-// ################    27052023    ################
+// #####    27052023    #####
+
+
+
+// #####  3:  28052023    #####
+
+// =======> Parameters a function accepts
+// You can find the number of parameters a function accepts using the below 3 methods
+//  -> Method 1 
+//  -- 
 
 
 
 
+// #####    28052023    #####
 
 
