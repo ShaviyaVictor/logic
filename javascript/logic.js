@@ -74,6 +74,15 @@ var array1 = [10, 20, 30];
 var array2 = [40, 50, 60];
 var combinedArray3 = [...array1, ...array2];
 
+console.log(combinedArray3)
+  
+  // concatenation using reduce() method
+var array1 = [10, 20, 30];
+var array2 = [40, 50, 60];
+var combinedArray4 = array1.reduce((acc, val) => acc.concat(val), array2);
+
+console.log(combinedArray4);
+
 
 // ################    27052023    ################
 
