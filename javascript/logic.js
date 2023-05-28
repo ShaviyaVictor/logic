@@ -46,28 +46,33 @@ console.log('Shaviya'.repeat(5))
 
 var array1 = [10, 20, 30];
 var array2 = [40, 50, 60];
-var combinedArray = [];
+var combinedArray1 = [];
 
 for (let i=0; i<array1.length; i++) {
-  combinedArray.push(array1[i])
+  combinedArray1.push(array1[i])
 }
 for (let i=0; i<array2.length; i++) {
-  combinedArray.push(array2[i])
+  combinedArray1.push(array2[i])
 }
 
-console.log(combinedArray);
+console.log(combinedArray1);
 
 
 //  -> Shorthand 
 // -- Using either concat(), ..., and reduce() methods
 // concat() and ... methods combine the elements of the arrays by appending the elements of the 2nd to the end of the 1st array unlike the reduce() method
 
-  // concatenation using concat() and ... methods
+  // concatenation using concat() method
 var array1 = [10, 20, 30];
 var array2 = [40, 50, 60];
-var combinedArray = array1.concat(array2);
+var combinedArray2 = array1.concat(array2);
 
-console.log(combinedArray)
+console.log(combinedArray2);
+
+  // concatenation using ... method
+var array1 = [10, 20, 30];
+var array2 = [40, 50, 60];
+var combinedArray3 = [...array1, ...array2];
 
 
 // ################    27052023    ################
