@@ -20,6 +20,7 @@ function repeatString(String, number) {
 }
 console.log(repeatString('Shaviya', 5))
 
+
 //  -> Shorthand 
 // -- Using the repeat() method
 
@@ -43,9 +44,9 @@ console.log('Shaviya'.repeat(5))
 // using push() method in for loop to add the the arrays to our final array combination
 // printing the output
 
-let array1 = [10, 20, 30];
-let array2 = [40, 50, 60];
-let combinedArray = [];
+var array1 = [10, 20, 30];
+var array2 = [40, 50, 60];
+var combinedArray = [];
 
 for (let i=0; i<array1.length; i++) {
   combinedArray.push(array1[i])
@@ -55,6 +56,19 @@ for (let i=0; i<array2.length; i++) {
 }
 
 console.log(combinedArray);
+
+
+//  -> Shorthand 
+// -- Using either concat(), ..., and reduce() methods
+// concat() and ... methods combine the elements of the arrays by appending the elements of the 2nd to the end of the 1st array unlike the reduce() method
+
+  // concatenation using concat() and ... methods
+var array1 = [10, 20, 30];
+var array2 = [40, 50, 60];
+var combinedArray = array1.concat(array2);
+
+console.log(combinedArray)
+
 
 // ################    27052023    ################
 
