@@ -91,7 +91,7 @@ console.log(combinedArray5);
 
 
 
-// #####  3:  28052023    #####
+// #####  3:  29052023    #####
 
 // =======> Parameters a function accepts
 // You can find the number of parameters a function accepts using the below 2 methods
@@ -117,7 +117,7 @@ function myFunction2(a, b, c) {
 }
 myFunction2(1, 2, 3);
 
-// #####    28052023    #####
+// #####    29052023    #####
 
 
 
