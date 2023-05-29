@@ -117,8 +117,6 @@ function myFunction2(a, b, c) {
 }
 myFunction2(1, 2, 3);
 
-
-
 // #####    28052023    #####
 
 
