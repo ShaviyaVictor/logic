@@ -126,7 +126,12 @@ myFunction2(1, 2, 3);
 // =======> JavaScript Loops
 // JavaScript provides several types of loops for repeating code blocks repeatedly:
   // for loop; for-in loop; for-of loop 
-
+// 1) for loop
+  // It has 3 parts: the initial variable for the for-loop; the loop condition; the increament or decreament expression
+  // The loop will keep running as long as the condition is true 
+for (let i=4; i<=5; i++) {
+  console.log(i);
+}
 
 
 // #####    29052023    #####
