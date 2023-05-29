@@ -137,9 +137,16 @@ for (let i=4; i<=5; i++) {
 // 2) for-in loop
   // This loop allows us to iterate over an object's properties
 // let object = {'a':'1', 'b':'2'} //or
-let object = {a:1, b:2, c:3}
+let object = {a:1, b:2, c:3};
 for (let property in object) {
   console.log(property + ":" + object[property]);
+}
+
+// 3) for-of loop
+  // This loop iterates over values IF the iterable object is an Array or String
+let array = ['Norris', 'Jos', 'Vic'];
+for (let element of array) {
+  console.log(element)
 }
 
 // #####    29052023    #####
