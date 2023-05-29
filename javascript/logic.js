@@ -94,7 +94,7 @@ console.log(combinedArray5);
 // #####  3:  28052023    #####
 
 // =======> Parameters a function accepts
-// You can find the number of parameters a function accepts using the below 3 methods
+// You can find the number of parameters a function accepts using the below 2 methods
 //  -> Method 1 
 //  -- Based on the number of arguments in the function definition;
     // the length property of a function returns the number of arguments that the function expects to receive.
@@ -106,8 +106,16 @@ function myFunction(a, b, c, d) {
 console.log(myFunction.length);
 
 //  -> Method 2
-//  -- 
+//  -- The parameters passed to a function are stored in an object called an argument, which looks like an array;
+    // using the length property of the argument object, you can find how many objects were passed to the function
+    // however, you cannot use the arguments object to figure out how many arguments a function expects from outside the function
+    // coz it is only accessible inside the function.
+// Method 1 thus becomes the better choice
 
+function myFunction2(a, b, c) {
+  console.log(arguments.length)
+}
+myFunction2(1, 2, 3);
 
 
 
