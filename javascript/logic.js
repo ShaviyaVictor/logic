@@ -120,3 +120,19 @@ myFunction2(1, 2, 3);
 // #####    28052023    #####
 
 
+
+// #####  3:  29052023    #####
+
+// =======> JavaScript Loops
+// JavaScript provides several types of loops for repeating code blocks repeatedly:
+  // for loop; for-in loop; for-of loop 
+
+
+
+// #####    29052023    #####
+
+
+
+
+
+
