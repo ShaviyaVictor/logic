@@ -156,7 +156,13 @@ for (let element of array) {
 // #####  3:  30052023    #####
 
 // =======> String to Array
+// We can use the split() method to convert a String to an Array
+  // The split() method splits a String into substrings using a seperator string or a regular expression
 
+  //  -> Longhand 
+let string = "Norris Ambune, Josphine Mbaisi, Victor Shaviya";
+let array1 = string.split(",");
+console.log(array1)
 
 
 // #####    30052023    #####
