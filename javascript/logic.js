@@ -9,9 +9,14 @@
 
 //  -> Longhand 
 let string = "Norris Ambune, Josphine Mbaisi, Victor Shaviya";
-let array3 = string.split(",");
+let array3 = string.split(",",);
 console.log(array3)
-  
+
+
+//  -> Shorthand 
+let string1 = "Jane Migaliza, Hycine Mapendo, Fidel Nafula";
+let array4 = [...string1.split(",")]
+console.log(array4)
   
 // #####    30052023    #####
 
