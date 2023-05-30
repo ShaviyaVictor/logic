@@ -3,32 +3,31 @@
 
 // #####  5:  30052023    #####
 
-// =======> String to Array
-// We can use the split() method to convert a String to an Array
-  // The split() method splits a String into substrings using a seperator string or a regular expression
+  // =======> String to Array
+  // We can use the split() method to convert a String to an Array
+    // The split() method splits a String into substrings using a seperator string or a regular expression
 
-//  -> Longhand 
-let string = "Norris Ambune, Josphine Mbaisi, Victor Shaviya";
-// adding the trailing space as part of the seperator string 
-let array3 = string.split(", ",);
-console.log(array3)
-
-
-//  -> Shorthand 
-let string1 = "Jane Migaliza, Hycine Mapendo, Fidel Nafula";
-let array4 = [...string1.split(",")]
-console.log(array4)
+  //  -> Longhand 
+  let string = "Norris Ambune, Josphine Mbaisi, Victor Shaviya";
+  // adding the trailing space as part of the seperator string 
+  let array3 = string.split(", ",);
+  console.log(array3)
 
 
-// Iterating over the characters of a String using a for loop 
-  // and converting the characters of the string into an array using the push() method
-// let array5 = "Andrew Hylton, Rosue Walford, Chadan Huggup";
-let array5 = "Andrew, Hylton";
-let array6 = [];
-for (let i=0; i<array5.length; i++) {
-  array6.push(array5[i])
-}
-console.log(array6);
+  //  -> Shorthand 
+  let string1 = "Jane Migaliza, Hycine Mapendo, Fidel Nafula";
+  let array4 = [...string1.split(",")]
+  console.log(array4)
+
+
+  // Iterating over the characters of a String using a for loop 
+    // and converting the characters of the string into an array using the push() method
+  let array5 = "Andrew Hylton, Rosue Walford, Chadan Huggup";
+  let array6 = [];
+  for (let i=0; i<array5.length; i++) {
+    array6.push(array5[i])
+  }
+  console.log(array6);
   
 // #####    30052023    #####
 
