@@ -9,7 +9,8 @@
 
 //  -> Longhand 
 let string = "Norris Ambune, Josphine Mbaisi, Victor Shaviya";
-let array3 = string.split(",",);
+// adding the trailing space as part of the seperator string 
+let array3 = string.split(", ",);
 console.log(array3)
 
 
@@ -17,6 +18,17 @@ console.log(array3)
 let string1 = "Jane Migaliza, Hycine Mapendo, Fidel Nafula";
 let array4 = [...string1.split(",")]
 console.log(array4)
+
+
+// Iterating over the characters of a String using a for loop 
+  // and converting the characters of the string into an array using the push() method
+// let array5 = "Andrew Hylton, Rosue Walford, Chadan Huggup";
+let array5 = "Andrew, Hylton";
+let array6 = [];
+for (let i=0; i<array5.length; i++) {
+  array6.push(array5[i])
+}
+console.log(array6);
   
 // #####    30052023    #####
 
