@@ -39,9 +39,6 @@
   const minNum1 = Math.min(...numArray4);
   console.log(minNum1)
 
-
-  
-
 // #####    31052023    #####
 
 
