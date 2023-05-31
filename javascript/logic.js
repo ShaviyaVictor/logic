@@ -26,8 +26,16 @@
   }
   console.log(minNum)
 
+  //  -> Shorthand 
+  // Using built in methods: Math.max() && Math.min()
+
+  // Finding the maximum number in an Array
+  const numArray3 = [33, 12, 7, 24, 3, 15, 9];
+  const maxNum1 = Math.max(...numArray3);
+  console.log(maxNum1)
 
 
+  
 
 // #####    31052023    #####
 
