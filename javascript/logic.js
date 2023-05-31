@@ -3,7 +3,19 @@
 
 // #####  Day6:  31052023    #####
 
-  // =======> Max && Min in an Array
+  // =======> Max && Min value in an Array
+
+  //  -> Longhand 
+  // Finding the maximum number in an Array
+  const numArray = [33, 12, 7, 24, 3, 15, 9];
+  let maxNum = numArray[0];
+
+  for (let i=1; i<numArray.length; i++) {
+    if (numArray[i] > maxNum)
+    maxNum = numArray[i];
+  }
+  console.log(maxNum)
+
 
 
 // #####    31052023    #####
