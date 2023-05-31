@@ -16,7 +16,7 @@
   }
   console.log(maxNum)
 
-  // Finding the maximum number in an Array
+  // Finding the minimum number in an Array
   const numArray2 = [33, 12, 7, 24, 3, 15, 9];
   let minNum = numArray2[0];
 
@@ -30,9 +30,14 @@
   // Using built in methods: Math.max() && Math.min()
 
   // Finding the maximum number in an Array
-  const numArray3 = [33, 12, 7, 24, 3, 15, 9];
+  const numArray3 = [33, 12, 7, 24, 3, 15, 49];
   const maxNum1 = Math.max(...numArray3);
   console.log(maxNum1)
+
+  // Finding the minimum number in an Array
+  const numArray4 = [33, 1, 7, 24, 3, 15, 49];
+  const minNum1 = Math.min(...numArray4);
+  console.log(minNum1)
 
 
   
