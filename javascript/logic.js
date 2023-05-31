@@ -7,14 +7,25 @@
 
   //  -> Longhand 
   // Finding the maximum number in an Array
-  const numArray = [33, 12, 7, 24, 3, 15, 9];
-  let maxNum = numArray[0];
+  const numArray1 = [33, 12, 7, 24, 3, 15, 9];
+  let maxNum = numArray1[0];
 
-  for (let i=1; i<numArray.length; i++) {
-    if (numArray[i] > maxNum)
-    maxNum = numArray[i];
+  for (let i=1; i<numArray1.length; i++) {
+    if (numArray1[i] > maxNum)
+    maxNum = numArray1[i];
   }
   console.log(maxNum)
+
+  // Finding the maximum number in an Array
+  const numArray2 = [33, 12, 7, 24, 3, 15, 9];
+  let minNum = numArray2[0];
+
+  for (let i=1; i<numArray2.length; i++) {
+    if (numArray2[i] < minNum)
+    minNum = numArray2[i];
+  }
+  console.log(minNum)
+
 
 
 
