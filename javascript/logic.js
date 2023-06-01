@@ -23,10 +23,15 @@
   const convertedNum28 = +num28;
   console.log(convertedNum28);
 
-    // converts the String to an Int
+    // converts the String to an Float/Decimal
   const floatPieNum = "3.1427";
   const convertedFloatPieNum = +floatPieNum;
   console.log(convertedFloatPieNum);
+
+    // converts the String to an negative Int number
+  const negativeNum = "-27";
+  const convertedNegNum = +negativeNum;
+  console.log(convertedNegNum);
 
 // #####    01062023    #####
 
