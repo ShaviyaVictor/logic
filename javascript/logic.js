@@ -1,6 +1,14 @@
 
 // Challenge 1: https://javascript.plainenglish.io/15-javascript-shorthand-ultimate-cheatsheet-d1f71a363a90
 
+// #####  Day7:  01062023    #####
+
+  // =======> Convert Strings to Numbers
+
+// #####    01062023    #####
+
+
+
 // #####  Day6:  31052023    #####
 
   // =======> Max && Min value in an Array
