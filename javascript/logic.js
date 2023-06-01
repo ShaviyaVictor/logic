@@ -12,6 +12,10 @@
   const convertedNum27 = parseInt(num27);
   console.log(convertedNum27);
 
+  // parseFloat() function converts the String to a Float(decimal)
+  const pieNum = "3.14";
+  const convertedPieNum = parseFloat(pieNum);
+  console.log(convertedPieNum);
 
 // #####    01062023    #####
 
