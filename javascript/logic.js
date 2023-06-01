@@ -4,6 +4,14 @@
 // #####  Day7:  01062023    #####
 
   // =======> Convert Strings to Numbers
+  // This can be done by using several methods:
+
+  // 1) Using either: parseInt() or parseFloat()
+  // parseInt() function converts the String to an Int
+  const num27 = "27";
+  const convertedNum27 = parseInt(num27);
+  console.log(convertedNum27);
+
 
 // #####    01062023    #####
 
