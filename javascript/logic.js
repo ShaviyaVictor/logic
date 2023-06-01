@@ -7,15 +7,21 @@
   // This can be done by using several methods:
 
   // 1) Using either: parseInt() or parseFloat()
-  // parseInt() function converts the String to an Int
+    // parseInt() function converts the String to an Int
   const num27 = "27";
   const convertedNum27 = parseInt(num27);
   console.log(convertedNum27);
 
-  // parseFloat() function converts the String to a Float(decimal)
+    // parseFloat() function converts the String to a Float(decimal)
   const pieNum = "3.14";
   const convertedPieNum = parseFloat(pieNum);
   console.log(convertedPieNum);
+
+  // 2) Using the Unary plus operator (+)
+    // converts the String to an Int
+  const num28 = "28";
+  const convertedNum28 = +num28;
+  console.log(convertedNum28);
 
 // #####    01062023    #####
 
