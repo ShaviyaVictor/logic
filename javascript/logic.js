@@ -23,6 +23,11 @@
   const convertedNum28 = +num28;
   console.log(convertedNum28);
 
+    // converts the String to an Int
+  const floatPieNum = "3.1427";
+  const convertedFloatPieNum = +floatPieNum;
+  console.log(convertedFloatPieNum);
+
 // #####    01062023    #####
 
 
