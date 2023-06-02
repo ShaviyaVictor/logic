@@ -3,6 +3,15 @@
 
 // #####  Day8:  02062023    #####
 
+  // =======> Assigning Values to multiple Variables
+  // Using the individual assignment statement method
+  let x;
+  let y;
+  let z;
+
+  x = 24;
+  y = 25;
+  z = 26;
 
 
 // #####    02062023    #####
