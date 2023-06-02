@@ -19,6 +19,11 @@
   let u, v, w;
   [u, v, w] = [21, 22, 23];
 
+  // Using Destructuring assignment to asign values to variables from an object
+  const object8 = {propU:21, propV:22, propW:23};
+  let propU, propV, propW;
+  ({propU, propV, propW} = object8);
+
 // #####    02062023    #####
 
 
