@@ -1,6 +1,14 @@
 
 // Challenge 1: https://javascript.plainenglish.io/15-javascript-shorthand-ultimate-cheatsheet-d1f71a363a90
 
+// #####  Day8:  02062023    #####
+
+
+
+// #####    02062023    #####
+
+
+
 // #####  Day7:  01062023    #####
 
   // =======> Convert Strings to Numbers
@@ -10,28 +18,28 @@
     // parseInt() function converts the String to an Int
   const num27 = "27";
   const convertedNum27 = parseInt(num27);
-  console.log(convertedNum27);
+  console.log(convertedNum27)
 
     // parseFloat() function converts the String to a Float(decimal)
   const pieNum = "3.14";
   const convertedPieNum = parseFloat(pieNum);
-  console.log(convertedPieNum);
+  console.log(convertedPieNum)
 
   // 2) Using the Unary plus operator (+)
     // converts the String to an Int
   const num28 = "28";
   const convertedNum28 = +num28;
-  console.log(convertedNum28);
+  console.log(convertedNum28)
 
     // converts the String to an Float/Decimal
   const floatPieNum = "3.1427";
   const convertedFloatPieNum = +floatPieNum;
-  console.log(convertedFloatPieNum);
+  console.log(convertedFloatPieNum)
 
     // converts the String to an negative Int number
   const negativeNum = "-27";
   const convertedNegNum = +negativeNum;
-  console.log(convertedNegNum);
+  console.log(convertedNegNum)
 
 // #####    01062023    #####
 
@@ -90,13 +98,13 @@
   //  -> Longhand 
   let string = "Norris Ambune, Josphine Mbaisi, Victor Shaviya";
   // adding the trailing space as part of the seperator string 
-  let array3 = string.split(", ",);
+  let array3 = string.split(", ");
   console.log(array3)
 
 
   //  -> Shorthand 
   let string1 = "Jane Migaliza, Hycine Mapendo, Fidel Nafula";
-  let array4 = [...string1.split(",")]
+  let array4 = [...string1.split(",")];
   console.log(array4)
 
 
@@ -109,7 +117,7 @@
   for (let i=0; i<array5.length; i++) {
     array6.push(array5[i])
   }
-  console.log(array6);
+  console.log(array6)
   
 // #####    30052023    #####
 
@@ -129,7 +137,7 @@
    *    The loop will keep running as long as the condition is true 
    */
   for (let i=4; i<=5; i++) {
-    console.log(i);
+    console.log(i)
   }
 
   /**
@@ -139,7 +147,7 @@
   // let object = {'a':'1', 'b':'2'} //or
   let object = {a:1, b:2, c:3};
   for (let property in object) {
-    console.log(property + ":" + object[property]);
+    console.log(property + ":" + object[property])
   }
 
   /**
@@ -169,7 +177,7 @@
     // function body
   }
 
-  console.log(myFunction.length);
+  console.log(myFunction.length)
 
   /**
    * -> Method 2
@@ -210,7 +218,7 @@
     combinedArray1.push(array2[i])
   }
 
-  console.log(combinedArray1);
+  console.log(combinedArray1)
 
 
   //  -> Shorthand 
@@ -224,7 +232,7 @@
   var array2 = [40, 50, 60];
   var combinedArray2 = array1.concat(array2);
 
-  console.log(combinedArray2);
+  console.log(combinedArray2)
 
     // concatenation using ... method
   var array1 = [10, 20, 30];
@@ -241,8 +249,8 @@
   // array1 will be added 1st then array2 
   var combinedArray5 = array2.reduce((acc, val) => acc.concat(val), array1);
 
-  console.log(combinedArray4);
-  console.log(combinedArray5);
+  console.log(combinedArray4)
+  console.log(combinedArray5)
 
 // #####    27052023    #####
 
@@ -262,7 +270,7 @@
   function repeatString(String, number) {
     let results = '';
     for (let i=0; i<number; i++) {
-      results += String;
+      results += String
     }
     return results
   }
