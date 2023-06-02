@@ -3,6 +3,7 @@
 
 // #####  Day8:  02062023    #####
 
+  //  -> Longhand 
   // =======> Assigning Values to multiple Variables
   // Using the individual assignment statement method
   let x;
@@ -13,6 +14,10 @@
   y = 25;
   z = 26;
 
+  //  -> Shorthand 
+  // Destructuring assignment
+  let u, v, w;
+  [u, v, w] = [21, 22, 23];
 
 // #####    02062023    #####
 
