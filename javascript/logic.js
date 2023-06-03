@@ -1,10 +1,20 @@
 
 // Challenge 1: https://javascript.plainenglish.io/15-javascript-shorthand-ultimate-cheatsheet-d1f71a363a90
 
+// #####  Day9:  03062023    #####
+
+  // =======> Exponent Power
+  //  -> Longhand 
+
+
+// #####    03062023    #####
+
+
+
 // #####  Day8:  02062023    #####
 
-  //  -> Longhand 
   // =======> Assigning Values to multiple Variables
+  //  -> Longhand 
   // Using the individual assignment statement method
   let x;
   let y;
@@ -67,7 +77,6 @@
 // #####  Day6:  31052023    #####
 
   // =======> Max && Min value in an Array
-
   //  -> Longhand 
   // Finding the maximum number in an Array
   const numArray1 = [33, 12, 7, 24, 3, 15, 9];
