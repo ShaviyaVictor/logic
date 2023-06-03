@@ -4,7 +4,22 @@
 // #####  Day9:  03062023    #####
 
   // =======> Exponent Power
+  // There are several ways of calculating the exponent power of a number in JS 
   //  -> Longhand 
+  // Using for loop
+  function power(base, exponent) {
+
+    // finding out how many parameters the function expects
+    console.log(arguments.length)
+
+    let results = 1;
+    for (let i=0; i<exponent; i++) {
+      results *= base;
+    }
+    return results;
+    
+  }
+  console.log(power(2, 3))
 
 
 // #####    03062023    #####
