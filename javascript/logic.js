@@ -8,19 +8,23 @@
   //  -> Longhand 
   // Using for loop
   function power(base, exponent) {
-
     // finding out how many parameters the function expects
     console.log(arguments.length)
-
     let results = 1;
     for (let i=0; i<exponent; i++) {
       results *= base;
     }
     return results;
-    
   }
   console.log(power(2, 3))
 
+  //  -> Shorthand 
+  // Using Math.pow() function
+  function power(base, exponent) {
+    console.log(arguments.length)
+    return Math.pow(base, exponent);
+  }
+  console.log(power(3, 3))
 
 // #####    03062023    #####
 
