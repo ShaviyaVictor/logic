@@ -26,6 +26,12 @@
   }
   console.log(power(3, 3))
 
+  // Using the exponentiation operator(**)
+  const base = 4;
+  const exponent = 2;
+  const results = base ** exponent;
+  console.log(results)
+
 // #####    03062023    #####
 
 
