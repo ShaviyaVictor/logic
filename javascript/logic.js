@@ -1,6 +1,15 @@
 
 // Challenge 1: https://javascript.plainenglish.io/15-javascript-shorthand-ultimate-cheatsheet-d1f71a363a90
 
+// #####  Day11:  05062023    #####
+
+  // =======> Default Value to a Function Parameter
+  
+
+// #####    05062023    #####
+
+
+
 // #####  Day10:  04062023    #####
 
   // =======> Double bitwise Not operator(~~)
@@ -115,7 +124,7 @@
   const convertedNum28 = +num28;
   console.log(convertedNum28)
 
-    // converts the String to an Float/Decimal
+    // converts the String to an Float/Decimal - unlike the Double tilde operator/parseInt()/Math.floor() that floor the number
   const floatPieNum = "3.1427";
   const convertedFloatPieNum = +floatPieNum;
   console.log(convertedFloatPieNum)
@@ -259,7 +268,6 @@
   function myFunction(a, b, c, d) {
     // function body
   }
-
   console.log(myFunction.length)
 
   /**
@@ -300,7 +308,6 @@
   for (let i=0; i<array2.length; i++) {
     combinedArray1.push(array2[i])
   }
-
   console.log(combinedArray1)
 
 
@@ -314,14 +321,12 @@
   var array1 = [10, 20, 30];
   var array2 = [40, 50, 60];
   var combinedArray2 = array1.concat(array2);
-
   console.log(combinedArray2)
 
     // concatenation using ... method
   var array1 = [10, 20, 30];
   var array2 = [40, 50, 60];
   var combinedArray3 = [...array1, ...array2];
-
   console.log(combinedArray3)
     
     // concatenation using reduce() method
@@ -331,7 +336,6 @@
   var combinedArray4 = array1.reduce((acc, val) => acc.concat(val), array2);
   // array1 will be added 1st then array2 
   var combinedArray5 = array2.reduce((acc, val) => acc.concat(val), array1);
-
   console.log(combinedArray4)
   console.log(combinedArray5)
 
