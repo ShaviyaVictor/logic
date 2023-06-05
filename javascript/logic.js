@@ -9,6 +9,10 @@
   const tildeInt = ~~deciFloat;
   console.log(tildeInt)
 
+  // tilde operator(~~) can therefore be used in place of Math.floor() method
+  const floorThis = 5.99;
+  const floorNum = ~~floorThis;
+  console.log(floorNum)
 
 // #####    04062023    #####
 
