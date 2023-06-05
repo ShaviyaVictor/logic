@@ -14,6 +14,10 @@
   const floorNum = ~~floorThis;
   console.log(floorNum)
 
+  const floorThis1 = 9.99;
+  const floorNum1 = Math.floor(floorThis1);
+  console.log(floorNum1)
+
 // #####    04062023    #####
 
 
