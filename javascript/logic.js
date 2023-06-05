@@ -4,7 +4,16 @@
 // #####  Day11:  05062023    #####
 
   // =======> Default Value to a Function Parameter
+  // In JSON, u can assign default values to function parameters in several ways
+  //  -> Longhand 
+  function greetings(name) {
+    name = name || "Anonymous";
+    console.log(`Hello, ${name}!`)
+  }
+  // In the above example, we give `name` parameter a default value "anonymous";
+    // this way when the function is called and no value is passed for the function parameter, the default value is used
   
+  //  -> Shorthand 
 
 // #####    05062023    #####
 
