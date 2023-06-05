@@ -19,10 +19,13 @@
   console.log(floorNum1)
 
   // tilde operator (~~) can also be used in place of parseInt() function;
-      // but will also round thus not a good alternative
   const parseString2Num = "38.8898";
   const tildeStr = ~~parseString2Num;
   console.log(tildeStr)
+  
+  const parseString2Num1 = "33.563";
+  const tildeStr1 = parseInt(parseString2Num1);
+  console.log(tildeStr1)
 
 // #####    04062023    #####
 
