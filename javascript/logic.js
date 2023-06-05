@@ -22,7 +22,7 @@
   const parseString2Num = "38.8898";
   const tildeStr = ~~parseString2Num;
   console.log(tildeStr)
-  
+
   const parseString2Num1 = "33.563";
   const tildeStr1 = parseInt(parseString2Num1);
   console.log(tildeStr1)
