@@ -8,12 +8,16 @@
   //  -> Longhand 
   function greetings(name) {
     name = name || "Anonymous";
-    console.log(`Hello, ${name}!`)
+    console.log(`Hello, ${name}`)
   }
   // In the above example, we give `name` parameter a default value "anonymous";
     // this way when the function is called and no value is passed for the function parameter, the default value is used
   
   //  -> Shorthand 
+  function greetings(name = "Anonymous") {
+    console.log(`Hello, ${name}`)
+  }
+  // Above, we use the = syntax to assign the default param value
 
 // #####    05062023    #####
 
