@@ -5,8 +5,8 @@
 
   // =======> Double bitwise Not operator(~~)
   // the tilde operator (~~) can help round a number to the closest/nearest floor integer
-  const deciFloat = 3.543;
-  const tildeInt = ~~deciFloat;
+  const decimalFloat = 3.543;
+  const tildeInt = ~~decimalFloat;
   console.log(tildeInt)
 
   // tilde operator(~~) can therefore be used in place of Math.floor() method
@@ -17,6 +17,12 @@
   const floorThis1 = 9.99;
   const floorNum1 = Math.floor(floorThis1);
   console.log(floorNum1)
+
+  // tilde operator (~~) can also be used in place of parseInt() function;
+      // but will also round thus not a good alternative
+  const parseString2Num = "38.8898";
+  const tildeStr = ~~parseString2Num;
+  console.log(tildeStr)
 
 // #####    04062023    #####
 
