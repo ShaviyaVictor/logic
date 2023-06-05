@@ -4,6 +4,10 @@
 // #####  Day10:  04062023    #####
 
   // =======> Double bitwise Not operator(~~)
+  // the tilde operator (~~) can help round a number to the closest/nearest floor integer
+  const deciFloat = 3.543;
+  const tildeInt = ~~deciFloat;
+  console.log(tildeInt)
 
 
 // #####    04062023    #####
