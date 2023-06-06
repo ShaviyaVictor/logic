@@ -1,6 +1,14 @@
 
 // Challenge 1: https://javascript.plainenglish.io/15-javascript-shorthand-ultimate-cheatsheet-d1f71a363a90
 
+// #####  Day12:  06062023    #####
+
+  // =======> Ternary Operator
+  // This is also called the Conditional Operator or the Ternary Conditional Operator 
+
+
+// #####    06062023    #####
+
 // #####  Day11:  05062023    #####
 
   // =======> Default Value to a Function Parameter
