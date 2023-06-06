@@ -26,6 +26,12 @@
   else maxSize = ten;
   console.log(maxSize)
 
+  //  -> Shorthand 
+  let two = 200;
+  let four = 400;
+  let larger = (two < four) ? four : two;
+  console.log(larger)
+
 // #####    06062023    #####
 
 // #####  Day11:  05062023    #####
