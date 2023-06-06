@@ -7,12 +7,24 @@
   // This is also called the Conditional Operator or the Ternary Conditional Operator 
 
   // basic syntax of Ternary Operator
-  condition ? value_if_condition_is_TRUE : value_if_condition_is_FALSE
+  // condition ? value_if_condition_is_TRUE : value_if_condition_is_FALSE
 
   // eg
   function feeCharge(isMember) {
     return (isMember ? $100 : $200);
+    condition ? value_if_condition_is_TRUE : value_if_condition_is_FALSE
   }
+
+  //  -> Longhand 
+  // Using the if-else statement
+  let ten = 100;
+  let twenty = 20;
+
+  if (twenty > ten) {
+    maxSize = twenty;
+  }
+  else maxSize = ten;
+  console.log(maxSize)
 
 // #####    06062023    #####
 
