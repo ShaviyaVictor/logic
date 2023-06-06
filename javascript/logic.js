@@ -14,6 +14,10 @@
     return (isMember ? $100 : $200);
     condition ? value_if_condition_is_TRUE : value_if_condition_is_FALSE
   }
+  /* The Ternary Conditional Operator can be helpful for expressing Conditional logic in a single line
+      despite the fact that it can be more challenging to read & understand than the if-else statement
+      It is however a good idea to use Ternary Operator when the conditional logic becomes more complicated */
+
 
   //  -> Longhand 
   // Using the if-else statement
