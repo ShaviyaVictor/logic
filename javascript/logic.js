@@ -6,6 +6,8 @@
   // =======> Ternary Operator
   // This is also called the Conditional Operator or the Ternary Conditional Operator 
 
+  // basic syntax of Ternary Operator
+  condition ? value_if_condition_is_TRUE : value_if_condition_is_FALSE
 
 // #####    06062023    #####
 
