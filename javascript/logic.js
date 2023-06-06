@@ -9,6 +9,11 @@
   // basic syntax of Ternary Operator
   condition ? value_if_condition_is_TRUE : value_if_condition_is_FALSE
 
+  // eg
+  function feeCharge(isMember) {
+    return (isMember ? $100 : $200);
+  }
+
 // #####    06062023    #####
 
 // #####  Day11:  05062023    #####
