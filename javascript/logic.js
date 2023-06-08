@@ -4,6 +4,19 @@
 // #####  Day13:  07062023    #####
 
   // =======> Swap two variables
+  // To swap the values of 2 variables, you can use different methods
+
+  //  -> Longhand
+  let m = 8;
+  let n = 2;
+
+  let temporary = m;
+  m = n;
+  n = temporary;
+  /*  In the example above, we create a temporary variable(temporary) to store the value of m;
+      then assign the value of m to the value of n and the value of n to the value of temporary */
+
+
 
 // #####    07062023    #####
 
@@ -23,7 +36,6 @@
   /* The Ternary Conditional Operator can be helpful for expressing Conditional logic in a single line
       despite the fact that it can be more challenging to read & understand than the if-else statement
       It is however a good idea to use Ternary Operator when the conditional logic becomes more complicated */
-
 
   //  -> Longhand 
   // Using the if-else statement
