@@ -15,6 +15,7 @@
   n = temporary;
   /**  In the example above, we create a temporary variable(temporary) to store the value of m;
    *   then assign the value of m to the value of n and the value of n to the value of temporary
+   * thus: m = 2 && n = 8
    */
 
   //  -> Shorthand 
@@ -23,6 +24,7 @@
   [o, p] = [p, o];
   /**  The above example uses the destructuring assignment method to reassign values of variables without the need for a temporary variable
    *   Destructuring assignment thus becomes a convenient way to swap values and assign variables to the elements of an array or object
+   *  thus: o = 2 && p = 8
    */
 
 // #####    07062023    #####
