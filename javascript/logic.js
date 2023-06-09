@@ -9,7 +9,10 @@
   // 1) Using the && Operator
     // This operator allows you to check if multiple conditions are TRUE 
 
-  
+  if (x > 0 && y < 10) {
+    // execute some code
+  }
+  // The code inside the block will only execute if both conditions are TRUE
 
 // #####    08062023    #####
 
