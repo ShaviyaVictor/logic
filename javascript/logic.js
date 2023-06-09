@@ -1,9 +1,21 @@
 
 // Challenge 1: https://javascript.plainenglish.io/15-javascript-shorthand-ultimate-cheatsheet-d1f71a363a90
 
+// #####  Day14:  08062023    #####
+
+  // =======> Checking Multiple Conditions
+  // This can be done by using several methods:
+
+  // 1) Using the && Operator
+    // This operator allows you to check if multiple conditions are TRUE 
+
+  
+
+// #####    08062023    #####
+
 // #####  Day13:  07062023    #####
 
-  // =======> Swap two variables
+  // =======> Swapping two variables
   // To swap the values of 2 variables, you can use different methods
 
   //  -> Longhand
