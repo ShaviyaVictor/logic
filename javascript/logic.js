@@ -6,20 +6,30 @@
   // =======> Checking Multiple Conditions
   // This can be done by using several methods:
 
-  // 1) Using the && (and) Operator
+  // 1) Using the && (and) Operator:
     // This operator allows you to check if multiple conditions are TRUE 
 
-  if (x > 0 && y < 10) {
+  function myFunc() {
+    if (x > 0 && y < 10) {
     // execute some code
+    }
   }
   // The code inside the block will only execute if both conditions are TRUE
 
-  // 2) Using the || (or) Operator
+  // 2) Using the || (or) Operator:
     // This operator allows you to check if at least one of the multiple conditions is TRUE 
-  if (x === 1 || x === 2 || x === 3) {
-    // execute some code
+
+  function myFunc() {
+    if (x === 1 || x === 2 || x === 3) {
+      // execute some code
+    }
   }
   // The code inside the block will only execute if equal in type and value to either 1, 2 OR 3
+
+  // 3) Using the switch statement:
+    // This allows you to check multiple conditions and execute different code blocks depending on the value of a given expression.
+
+  
 
 // #####    08062023    #####
 
