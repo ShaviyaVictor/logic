@@ -29,7 +29,21 @@
   // 3) Using the switch statement:
     // This allows you to check multiple conditions and execute different code blocks depending on the value of a given expression.
 
-  
+  function myFunc() {
+    switch(y) {
+      case 1:
+        // execute some code 
+        break;
+      case 2:
+        // execute some code 
+        break;
+      case 3:
+        // execute some code 
+        break;
+      default:
+        // execute some code 
+    }
+  }
 
 // #####    08062023    #####
 
@@ -45,6 +59,8 @@
   let temporary = m;
   m = n;
   n = temporary;
+  console.log(n)
+  console.log(m)
   /**  In the example above, we create a temporary variable(temporary) to store the value of m;
    *   then assign the value of m to the value of n and the value of n to the value of temporary
    * thus: m = 2 && n = 8
@@ -54,6 +70,8 @@
   let o = 8;
   let p = 2;
   [o, p] = [p, o];
+  console.log(p)
+  console.log(o)
   /**  The above example uses the destructuring assignment method to reassign values of variables without the need for a temporary variable
    *   Destructuring assignment thus becomes a convenient way to swap values and assign variables to the elements of an array or object
    *  thus: o = 2 && p = 8
