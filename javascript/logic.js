@@ -60,6 +60,9 @@
   }
   else 
   console.log("Nope, the value is not present in the Array")
+  // The Array.prototype.includes() function checks to see whether a value is present in an Array.
+  // The code inside the IF block will run if the value is present;
+    // if the value cannot be found in the Array, then the code in the else block will be executed
 
 // #####    08062023    #####
 
