@@ -51,6 +51,16 @@
   // The above logic will execute the code inside the case block that matches the value of y;
     // and if none of the cases matchMedia, the code inside the default block will be executed
 
+  // 4) Array.prototype.includes()
+  // The Array.prototype.includes() method also helps to check multiple conditions in Javascript
+  
+  const value = 2;
+  if ([1, 'one', 2, 'two'].includes(value)) {
+    console.log("Yeah the value of 2 is present in the Array")
+  }
+  else 
+  console.log("Nope, the value is not present in the Array")
+
 // #####    08062023    #####
 
 // #####  Day13:  07062023    #####
