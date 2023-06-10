@@ -26,6 +26,10 @@
   }
   // The code inside the block will only execute if equal in type and value to either 1, 2 OR 3
 
+  // !!! Important
+  // the && and || operators have a specific  order of preference;
+    // so you may need to use parenthesis to group conditions in the way you want
+
   // 3) Using the switch statement:
     // This allows you to check multiple conditions and execute different code blocks depending on the value of a given expression.
 
@@ -44,6 +48,8 @@
         // execute some code 
     }
   }
+  // The above logic will execute the code inside the case block that matches the value of y;
+    // and if none of the cases matchMedia, the code inside the default block will be executed
 
 // #####    08062023    #####
 
@@ -251,6 +257,7 @@
   const convertedNum28 = +num28;
   console.log(convertedNum28)
 
+    // !!! Important
     // converts the String to an Float/Decimal - unlike the Double tilde operator/parseInt()/Math.floor() that floor the number
   const floatPieNum = "3.1427";
   const convertedFloatPieNum = +floatPieNum;
