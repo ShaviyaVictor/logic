@@ -33,7 +33,20 @@
   console.log(family)
   console.log(famAlive)
 
-  
+  // In modern JavaScript (ES6 and later), you can use the Object.fromEntries() and Object.entries() methods 
+    // to remove multiple properties from an object
+  let family0 = {
+    "mother":"Jane",
+    "bro":"Norris",
+    "sis":"Josphine",
+    "me":"Victor",
+    "dad":"David"
+  }
+
+  let famObject0 = Object.fromEntries(
+    Object.entries(family0).filter(([key]) => key !== 'dad' && key !== 'me')
+  )
+  console.log(famObject0)
 
 // #####    10062023    #####
 
