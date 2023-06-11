@@ -1,6 +1,12 @@
 
 // Challenge 1: https://javascript.plainenglish.io/15-javascript-shorthand-ultimate-cheatsheet-d1f71a363a90
 
+// #####  Day16:  10062023    #####
+
+  // =======> Removing Properties
+
+// #####    10062023    #####
+
 // #####  Day14:  08062023    #####
 
   // =======> Checking Multiple Conditions
