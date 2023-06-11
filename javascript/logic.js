@@ -18,6 +18,21 @@
   delete famObject.me;
   console.log(famObject)
 
+  // Alternatively you can use the Object.assign() method to create a new object with the desired properties removed.
+
+  let family = {
+    "mother":"Jane",
+    "bro":"Norris",
+    "sis":"Josphine",
+    "me":"Victor",
+    "dad":"David"
+  }
+
+  let famAlive = Object.assign({}, family);
+  delete famAlive.dad
+  console.log(family)
+  console.log(famAlive)
+
   
 
 // #####    10062023    #####
