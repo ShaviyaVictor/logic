@@ -4,6 +4,21 @@
 // #####  Day16:  10062023    #####
 
   // =======> Removing Properties
+  // The delete operator allows you to delete a number of properties from an object
+
+  let famObject = {
+    "mother":"Jane",
+    "bro":"Norris",
+    "sis":"Josphine",
+    "me":"Victor",
+    "dad":"David"
+  }
+
+  delete famObject.dad;
+  delete famObject.me;
+  console.log(famObject)
+
+  
 
 // #####    10062023    #####
 
