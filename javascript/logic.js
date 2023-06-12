@@ -1,13 +1,25 @@
 
 // TODO 2 // Challenge 2: https://javascript.plainenglish.io/13-javascript-best-practices-7d293cacad00
+// TODO 2 In PROGRESS!!! -----> JavaScript Best Practices
 
 
 
-// TODO 1 // Challenge 1: https://javascript.plainenglish.io/15-javascript-shorthand-ultimate-cheatsheet-d1f71a363a90   -> DONE
+// #####  Day17:  12062023    #####
+
+  // =======> Using: 'use strict' mode
+
+  
+// #####    12062023    #####
+
+
+
+// TODO 1 // Challenge 1: https://javascript.plainenglish.io/15-javascript-shorthand-ultimate-cheatsheet-d1f71a363a90   
+// TODO 1 That Is Now DONE!!! -----> JavaScript Shorthand Techniques
+
 
 // #####  Day16:  10062023    #####
 
-  // =======> Removing Properties
+  // =======> Removing Properties from Objects
   // The delete operator allows you to delete a number of properties from an object
 
   let famObject = {
@@ -102,7 +114,7 @@
     }
   }
   // The above logic will execute the code inside the case block that matches the value of y;
-    // and if none of the cases matchMedia, the code inside the default block will be executed
+    // and if none of the cases match, the code inside the default block will be executed
 
   // 4) Array.prototype.includes()
   // The Array.prototype.includes() method also helps to check multiple conditions in Javascript
