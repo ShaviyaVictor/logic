@@ -149,7 +149,7 @@
 
 // #####  Day12:  06062023    #####
 
-  // =======> Ternary Operator
+  // =======> Ternary Operator Implementation
   // This is also called the Conditional Operator or the Ternary Conditional Operator 
 
   // basic syntax of Ternary Operator
@@ -185,7 +185,7 @@
 
 // #####  Day11:  05062023    #####
 
-  // =======> Default Value to a Function Parameter
+  // =======> Setting a Default Value to a Function Parameter
   // In JSON, u can assign default values to function parameters in several ways
   //  -> Longhand 
   function greetings(name) {
@@ -207,7 +207,7 @@
 
 // #####  Day10:  04062023    #####
 
-  // =======> Double bitwise Not operator(~~)
+  // =======> Double bitwise Not operator(~~) Implementation
   // the tilde operator (~~) can help round a number to the closest/nearest floor integer
   const decimalFloat = 3.543;
   const tildeInt = ~~decimalFloat;
@@ -237,7 +237,7 @@
 
 // #####  Day9:  03062023    #####
 
-  // =======> Exponent Power
+  // =======> Exponent Power Operation
   // There are several ways of calculating the exponent power of a number in JS 
   //  -> Longhand 
   // Using for loop
@@ -299,7 +299,7 @@
 
 // #####  Day7:  01062023    #####
 
-  // =======> Convert Strings to Numbers
+  // =======> Converting Strings to Numbers
   // This can be done by using several methods:
 
   // 1) Using either: parseInt() or parseFloat()
@@ -336,7 +336,7 @@
 
 // #####  Day6:  31052023    #####
 
-  // =======> Max && Min value in an Array
+  // =======> Finding Max && Min value in an Array
   //  -> Longhand 
   // Finding the maximum number in an Array
   const numArray1 = [33, 12, 7, 24, 3, 15, 9];
@@ -377,7 +377,7 @@
 
 // #####  Day5:  30052023    #####
 
-  // =======> String to Array
+  // =======> Converting String to Array
   /**
    * We can use the split() method to convert a String to an Array
    *  The split() method splits a String into substrings using a seperator string or a regular expression
@@ -453,7 +453,7 @@
 
 // #####  Day3:  28052023    #####
 
-  // =======> Parameters a function accepts
+  // =======> Determining the Parameters a function accepts
   /**
    * You can find the number of parameters a function accepts using the below 2 methods:
    *  -> Method 1 
