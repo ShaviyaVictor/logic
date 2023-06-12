@@ -6,9 +6,18 @@
 
 // #####  Day17:  12062023    #####
 
-  // =======> Using: 'use strict' mode
-
+  // ? =======> Using: 'use strict' mode...
+  // * "use strict" mode is helpful in:
+            // * - imposing strict coding standards
+            // * - identifying any issues in the code early
+            // * - allowing you avoid undeclared variables thus improving code quality
   
+  /*
+  "use strict";
+  */
+  s = 1; // this will cause an error to the entire logic when "use strict" is activated, just like with it on, the other below logics wld not be activated
+  console.log(s)
+
 // #####    12062023    #####
 
 
@@ -91,7 +100,7 @@
   }
   // The code inside the block will only execute if equal in type and value to either 1, 2 OR 3
 
-  // !!! Important
+  // ! Important
   // the && and || operators have a specific  order of preference;
     // so you may need to use parenthesis to group conditions in the way you want
 
@@ -335,7 +344,7 @@
   const convertedNum28 = +num28;
   console.log(convertedNum28)
 
-    // !!! Important
+    // ! Important
     // converts the String to an Float/Decimal - unlike the Double tilde operator/parseInt()/Math.floor() that floor the number
   const floatPieNum = "3.1427";
   const convertedFloatPieNum = +floatPieNum;
