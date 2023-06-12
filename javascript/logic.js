@@ -1,5 +1,9 @@
 
-// TODO // Challenge 1: https://javascript.plainenglish.io/15-javascript-shorthand-ultimate-cheatsheet-d1f71a363a90   -> DONE
+// TODO 2 // Challenge 2: https://javascript.plainenglish.io/13-javascript-best-practices-7d293cacad00
+
+
+
+// TODO 1 // Challenge 1: https://javascript.plainenglish.io/15-javascript-shorthand-ultimate-cheatsheet-d1f71a363a90   -> DONE
 
 // #####  Day16:  10062023    #####
 
