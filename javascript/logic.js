@@ -1,5 +1,5 @@
 
-// Challenge 1: https://javascript.plainenglish.io/15-javascript-shorthand-ultimate-cheatsheet-d1f71a363a90
+// TODO // Challenge 1: https://javascript.plainenglish.io/15-javascript-shorthand-ultimate-cheatsheet-d1f71a363a90   -> DONE
 
 // #####  Day16:  10062023    #####
 
@@ -237,7 +237,7 @@
 
 // #####  Day9:  03062023    #####
 
-  // =======> Exponent Power Operation
+  // =======> Exponentiation Operator(**) for Exponent Power Operation
   // There are several ways of calculating the exponent power of a number in JS 
   //  -> Longhand 
   // Using for loop
