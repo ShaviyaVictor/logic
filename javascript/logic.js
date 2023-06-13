@@ -4,6 +4,12 @@
 
 
 
+// #####  Day18:  13062023    #####
+
+  // ? =======> Using 'let' and 'const'
+
+// #####    13062023    #####
+
 // #####  Day17:  12062023    #####
 
   // ? =======> Using: 'use strict' mode...
@@ -313,7 +319,7 @@
   let u, v, w;
   [u, v, w] = [21, 22, 23];
 
-  // Using Destructuring assignment to asign values to variables from an object
+  // Using Destructuring assignment to asign values to variables of an object
   const object8 = {propU:21, propV:22, propW:23};
   let propU, propV, propW;
   ({propU, propV, propW} = object8);
@@ -350,7 +356,7 @@
   const convertedFloatPieNum = +floatPieNum;
   console.log(convertedFloatPieNum)
 
-    // converts the String to an negative Int number
+    // converts the String to a negative Int number
   const negativeNum = "-27";
   const convertedNegNum = +negativeNum;
   console.log(convertedNegNum)
@@ -410,7 +416,7 @@
 
   //  -> Longhand 
   let string = "Norris Ambune, Josphine Mbaisi, Victor Shaviya";
-  // adding the trailing space as part of the seperator string 
+  // adding the trailing space as part of the seperator string/ RegEx 
   let array3 = string.split(", ");
   console.log(array3)
 
@@ -440,13 +446,13 @@
 
   // =======> JavaScript Loops
   /**
-   * JavaScript provides several types of loops for repeating code blocks repeatedly:
+   * JavaScript provides several types of loops for repeating code blocks as long as a certain defined condition passes:
    *  for loop; for-in loop; for-of loop 
    */
 
   /**
    * 1) for loop
-   *    It has 3 parts: the initial variable for the for-loop; the loop condition; the increament or decreament expression
+   *    It has 3 parts: the initial index variable initialization of the for-loop; the loop condition; either the increament or decreament expression
    *    The loop will keep running as long as the condition is true 
    */
   for (let i=4; i<=5; i++) {
@@ -553,7 +559,7 @@
     // concatenation using reduce() method
   var array1 = [10, 20, 30];
   var array2 = [40, 50, 60];
-  // array2 will be added 1st then array2
+  // array2 will be added 1st then array1
   var combinedArray4 = array1.reduce((acc, val) => acc.concat(val), array2);
   // array1 will be added 1st then array2 
   var combinedArray5 = array2.reduce((acc, val) => acc.concat(val), array1);
