@@ -6,7 +6,12 @@
 
 // #####  Day18:  13062023    #####
 
-  // ? =======> Using 'let' and 'const'
+  // ? =======> Using 'let' and 'const' instead of 'var'
+  // * Use `let` - if you know the value of the variable
+  // * Use `const` - if you don't know the value of the variable
+
+  let greetings = "Hello Renae Beckford,";
+  const pi = 3.14;
 
 // #####    13062023    #####
 
