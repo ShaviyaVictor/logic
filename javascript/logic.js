@@ -7,6 +7,8 @@
 // #####  Day19:  15062023    #####
 
   // ? =======> Using `===` instead of `==`
+  // * Double equal converts type and checks for only VALUE equality;
+  // * Triple equal on the other hand does not convert type but checks for both TYPE and VALUE
 
 // #####    15062023    #####
 
