@@ -6,9 +6,19 @@
 
 // #####  Day19:  15062023    #####
 
-  // ? =======> Using `===` instead of `==`
+  // ? =======> Using `===` Operator instead of `==` Operator
   // * Double equal converts type and checks for only VALUE equality;
   // * Triple equal on the other hand does not convert type but checks for both TYPE and VALUE
+
+  const j = 10;
+  const k = "10";
+
+  // Using `==` Operator (type coercion allowed)
+  console.log(j == k) // true
+  //  Using `===` Operator (type coercion not allowed)
+  console.log(j === k) // false
+  // It will be false since j and k are of different types 
+  // Thus if you use `===` Operator, you won't get unexpected results and thus this is the recommended Operator
 
 // #####    15062023    #####
 
