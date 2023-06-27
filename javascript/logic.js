@@ -6,7 +6,16 @@
 
 // #####  Day20:  27062023    #####
 
-  // ? =======> 
+  // ? =======> Writing modular code
+
+  function add2Numbers(a, b) {
+    return a + b;
+  }
+  function subtract2Numbers(b, a) {
+    return b - a;
+  }
+  console.log(add2Numbers(20, 80));
+  console.log(subtract2Numbers(80, 20));
 
 // #####    27062023    #####
 
