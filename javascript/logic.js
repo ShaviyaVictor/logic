@@ -17,6 +17,9 @@
   console.log(add2Numbers(20, 80));
   console.log(subtract2Numbers(80, 20));
 
+  // * Modular code is code that is divided into manageable, and reusable functions;
+  //   * and thus gives us an easy time when it comes to testing and maintaining the code.
+
 // #####    27062023    #####
 
 // #####  Day19:  15062023    #####
