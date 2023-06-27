@@ -34,7 +34,7 @@
   // * Use `let` - if you know the value of the variable
   // * Use `const` - if you don't know the value of the variable
 
-  let greetings = "Hello Renae Beckford,";
+  let greetings2Renae = "Hello Renae Beckford,";
   const pi = 3.14;
 
 // #####    13062023    #####
@@ -589,9 +589,9 @@
   var array1 = [10, 20, 30];
   var array2 = [40, 50, 60];
   // array2 will be added 1st then array1
-  var combinedArray4 = array1.reduce((acc, val) => acc.concat(val), array2);
+  var combinedArray4 = array1.reduce((previous, next) => previous.concat(next), array2);
   // array1 will be added 1st then array2 
-  var combinedArray5 = array2.reduce((acc, val) => acc.concat(val), array1);
+  var combinedArray5 = array2.reduce((previous, next) => previous.concat(next), array1);
   console.log(combinedArray4)
   console.log(combinedArray5)
 
