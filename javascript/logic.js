@@ -8,10 +8,12 @@
 
   // ? =======> Using Built-In functions
 
-  let num21 = 3.831;
+  let num21 = 833.831;
   let newNum21 = Math.floor(num21);
+  let teldaNewNum21 = +num21;
 
   console.log(newNum21);
+  console.log(teldaNewNum21);
 
   // * Using built-in functions simplify and enhance your code;
   // * there are numerous built-in functions that can simplify your work 
@@ -46,8 +48,7 @@
   const k = "10";
 
   // Using `==` Operator (type coercion allowed)
-  console.log(j == k).
-   // true
+  console.log(j == k); // true
   //  Using `===` Operator (type coercion not allowed)
   console.log(j === k) // false
   // It will be false since j and k are of different types 
