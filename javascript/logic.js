@@ -8,6 +8,11 @@
 
   // ? =======> Using Built-In functions
 
+  let num21 = 3.831;
+  let newNum21 = Math.floor(num21);
+
+  console.log(newNum21);
+
 // #####    03072023    #####
 
 // #####  Day20:  27062023    #####
