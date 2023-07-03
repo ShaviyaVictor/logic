@@ -13,6 +13,9 @@
 
   console.log(newNum21);
 
+  // * Using built-in functions simplify and enhance your code;
+  // * there are numerous built-in functions that can simplify your work 
+
 // #####    03072023    #####
 
 // #####  Day20:  27062023    #####
