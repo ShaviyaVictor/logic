@@ -4,6 +4,12 @@
 
 
 
+// #####  Day21:  03072023    #####
+
+  // ? =======> Using Built-In functions
+
+// #####    03072023    #####
+
 // #####  Day20:  27062023    #####
 
   // ? =======> Writing modular code
@@ -32,7 +38,8 @@
   const k = "10";
 
   // Using `==` Operator (type coercion allowed)
-  console.log(j == k) // true
+  console.log(j == k).
+   // true
   //  Using `===` Operator (type coercion not allowed)
   console.log(j === k) // false
   // It will be false since j and k are of different types 
