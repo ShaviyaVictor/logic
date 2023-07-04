@@ -8,6 +8,11 @@
 
   // ? =======> Using Arrow Functions
 
+  function add3Num(a, b, c) {
+    return a + b + c;
+  };
+  console.log(add3Num(5, 5, 5));
+
 // #####    04072023    #####
 
 // #####  Day21:  03072023    #####
