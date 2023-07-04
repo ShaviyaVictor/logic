@@ -8,10 +8,15 @@
 
   // ? =======> Using Arrow Functions
 
+  // longhand
   function add3Num(a, b, c) {
     return a + b + c;
   };
   console.log(add3Num(5, 5, 5));
+
+  // shorthand using Arrow Function 
+  let add3Numbers = (a, b, c) => a + b + c;
+  console.log(add3Numbers(6, 6, 6));
 
 // #####    04072023    #####
 
