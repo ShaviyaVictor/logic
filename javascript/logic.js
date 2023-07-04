@@ -4,6 +4,12 @@
 
 
 
+// #####  Day22:  04072023    #####
+
+  // ? =======> Using Arrow Functions
+
+// #####    04072023    #####
+
 // #####  Day21:  03072023    #####
 
   // ? =======> Using Built-In functions
@@ -91,7 +97,7 @@
 
 // #####  Day16:  10062023    #####
 
-  // =======> Removing Properties from Objects
+  // ? =======> Removing Properties from Objects
   // The delete operator allows you to delete a number of properties from an object
 
   let famObject = {
@@ -140,7 +146,7 @@
 
 // #####  Day14:  08062023    #####
 
-  // =======> Checking Multiple Conditions
+  // ? =======> Checking Multiple Conditions
   // This can be done by using several methods:
 
   // 1) Using the && (and) Operator:
@@ -205,7 +211,7 @@
 
 // #####  Day13:  07062023    #####
 
-  // =======> Swapping two variables
+  // ? =======> Swapping two variables
   // To swap the values of 2 variables, you can use different methods
 
   //  -> Longhand
@@ -237,7 +243,7 @@
 
 // #####  Day12:  06062023    #####
 
-  // =======> Ternary Operator Implementation
+  // ? =======> Ternary Operator Implementation
   // This is also called the Conditional Operator or the Ternary Conditional Operator 
 
   // basic syntax of Ternary Operator
@@ -273,7 +279,7 @@
 
 // #####  Day11:  05062023    #####
 
-  // =======> Setting a Default Value to a Function Parameter
+  // ? =======> Setting a Default Value to a Function Parameter
   // In JSON, u can assign default values to function parameters in several ways
   //  -> Longhand 
   function greetings(name) {
@@ -295,7 +301,7 @@
 
 // #####  Day10:  04062023    #####
 
-  // =======> Double bitwise Not operator(~~) Implementation
+  // ? =======> Double bitwise Not operator(~~) Implementation
   // the tilde operator (~~) can help round a number to the closest/nearest floor integer
   const decimalFloat = 3.543;
   const tildeInt = ~~decimalFloat;
@@ -325,7 +331,7 @@
 
 // #####  Day9:  03062023    #####
 
-  // =======> Exponentiation Operator(**) for Exponent Power Operation
+  // ? =======> Exponentiation Operator(**) for Exponent Power Operation
   // There are several ways of calculating the exponent power of a number in JS 
   //  -> Longhand 
   // Using for loop
@@ -360,7 +366,7 @@
 
 // #####  Day8:  02062023    #####
 
-  // =======> Assigning Values to multiple Variables
+  // ? =======> Assigning Values to multiple Variables
   //  -> Longhand 
   // Using the individual assignment statement method
   let x;
@@ -387,7 +393,7 @@
 
 // #####  Day7:  01062023    #####
 
-  // =======> Converting Strings to Numbers
+  // ? =======> Converting Strings to Numbers
   // This can be done by using several methods:
 
   // 1) Using either: parseInt() or parseFloat()
@@ -424,7 +430,7 @@
 
 // #####  Day6:  31052023    #####
 
-  // =======> Finding Max && Min value in an Array
+  // ? =======> Finding Max && Min value in an Array
   //  -> Longhand 
   // Finding the maximum number in an Array
   const numArray1 = [33, 12, 7, 24, 3, 15, 9];
@@ -465,7 +471,7 @@
 
 // #####  Day5:  30052023    #####
 
-  // =======> Converting String to Array
+  // ? =======> Converting String to Array
   /**
    * We can use the split() method to convert a String to an Array
    *  The split() method splits a String into substrings using a seperator string or a regular expression
@@ -501,7 +507,7 @@
 
 // #####  Day4:  29052023    #####
 
-  // =======> JavaScript Loops
+  // ? =======> JavaScript Loops
   /**
    * JavaScript provides several types of loops for repeating code blocks as long as a certain defined condition passes:
    *  for loop; for-in loop; for-of loop 
@@ -541,7 +547,7 @@
 
 // #####  Day3:  28052023    #####
 
-  // =======> Determining the Parameters a function accepts
+  // ? =======> Determining the Parameters a function accepts
   /**
    * You can find the number of parameters a function accepts using the below 2 methods:
    *  -> Method 1 
@@ -574,7 +580,7 @@
 
 // #####  Day2:  27052023    #####
 
-  // =======> Combining of Arrays
+  // ? =======> Combining of Arrays
   //  -> Longhand 
   /**
    * -- Using a for Loop and push() method
@@ -629,7 +635,7 @@
 
 // #####  Day1:  26052023    #####
 
-  // =======> Repeating a String 
+  // ? =======> Repeating a String 
   //  -> Longhand 
   /**
    * -- Using a for Loop to repeat a String multiple times
