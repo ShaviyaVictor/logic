@@ -7,6 +7,8 @@
 // #####  Day23:  05072023    #####
 
   // ? =======> Template Literals (``)
+  // * Template Literals - are enclosed in backticks(``) characters rather than double("") or single quotes('')
+  // * It allows variables and expressions to be easily interpolated into strings through a method known as "String Interpolation"
 
 // #####    05072023    #####
 
