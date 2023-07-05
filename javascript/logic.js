@@ -10,6 +10,9 @@
   // * Template Literals - are enclosed in backticks(``) characters rather than double("") or single quotes('')
   // * It allows variables and expressions to be easily interpolated into strings through a method known as "String Interpolation"
 
+  let digicelAddress = "14 Ocean Boulevard";
+  console.log(`Digicel is located at ${digicelAddress}`);
+
 // #####    05072023    #####
 
 // #####  Day22:  04072023    #####
