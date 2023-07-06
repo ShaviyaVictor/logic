@@ -12,6 +12,14 @@
     // * and maps and assign them to new variables
   // * This technique allows for the quick creation of variables from the object's properties
 
+  let me = {
+    mySurname: "Shaviya",
+    age: 27
+  };
+
+  let {mySurname, age} = me;
+
+  console.log(mySurname, age);
 
 // #####    06072023    #####
 
