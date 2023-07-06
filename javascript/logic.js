@@ -7,7 +7,11 @@
 // #####  Day24:  06072023    #####
 
   // ? =======> Object Destructuring
-  
+  // * Object Destructuring - is a technique for removing values from objects and optimizing the code
+  // * This technique allows one to access the information contained in objects such as Arrays, Objects 
+    // * and maps and assign them to new variables
+  // * This technique allows for the quick creation of variables from the object's properties
+
 
 // #####    06072023    #####
 
