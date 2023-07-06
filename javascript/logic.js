@@ -4,11 +4,18 @@
 
 
 
+// #####  Day24:  06072023    #####
+
+  // ? =======> Object Destructuring
+  
+
+// #####    06072023    #####
+
 // #####  Day23:  05072023    #####
 
   // ? =======> Template Literals (``)
   // * Template Literals - are enclosed in backticks(``) characters rather than double("") or single quotes('')
-  // * It allows variables and expressions to be easily interpolated into strings through a method known as "String Interpolation"
+  // * It allows variables and express=8ions to be easily interpolated into strings through a method known as "String Interpolation"
 
   let digicelAddress = "14 Ocean Boulevard";
   console.log(`Digicel is located at ${digicelAddress}`);
