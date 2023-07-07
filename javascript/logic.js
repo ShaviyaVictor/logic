@@ -8,6 +8,11 @@
 // #####  Day25:  07072023    #####
 
   // ? =======> Global Variables
+  // * Global Variables - are variables declared outside of the function and thus have a global scope
+  // * In a JS program, they can be accessed from anywhere &,
+    // * thus should be handled with care and used wisely: 
+        // * to avoid naming collisions
+        // * and they also are considered poor practices
 
 
   // #####    07072023    #####
