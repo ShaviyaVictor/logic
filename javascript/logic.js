@@ -14,6 +14,16 @@
         // * to avoid naming collisions
         // * and they also are considered poor practices
 
+  // global variable 
+  var shaviya = "Hello, that is my name...";
+
+  function callOut() {
+    console.log(shaviya)
+  };
+  // console.log(callOut())
+  callOut();
+
+
 
   // #####    07072023    #####
 
