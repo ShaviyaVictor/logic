@@ -4,8 +4,15 @@
 
 
 
+// #####  Day26:  08072023    #####
 
-// #####  Day25:  07072023    #####
+  // ? =======> Using 'null' and 'undefined' appropriately
+  
+  
+// #####    08072023    #####
+
+// #####  Day25:  ...@070723    #####
+// ! changed my VS610642 password for the last time 
 
   // ? =======> Global Variables
   // * Global Variables - are variables declared outside of the function and thus have a global scope
@@ -23,9 +30,7 @@
   // console.log(callOut())
   callOut();
 
-
-
-  // #####    07072023    #####
+// #####    07072023    #####
 
 // #####  Day24:  06072023    #####
 
