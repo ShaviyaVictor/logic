@@ -7,6 +7,8 @@
 // #####  Day26:  08072023    #####
 
   // ? =======> Using 'null' and 'undefined' appropriately
+  // * Null - is a primitive type in JS that represents an empty value;
+    // * thus, when a variable is set to null, it basically means it has no value 
   
   
 // #####    08072023    #####
