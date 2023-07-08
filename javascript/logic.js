@@ -9,8 +9,14 @@
   // ? =======> Using 'null' and 'undefined' appropriately
   // * Null - is a primitive type in JS that represents an empty value;
     // * thus, when a variable is set to null, it basically means it has no value.
-    // * undefined - contrarily means that a variable has been declared but has not yet been assigned a value.
+  // * undefined - contrarily means that a variable has been declared but has not yet been assigned a value.
   
+  let message;
+  console.log(message === undefined);
+
+  let message0 = null;
+  console.log(message0 === null);
+
 // #####    08072023    #####
 
 // #####  Day25:  ...@070723    #####
