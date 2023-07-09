@@ -10,6 +10,13 @@
   // * Promises are a powerful tool for handling asynchronous operations in JS
   // * Having a solid understanding of promises will help you write code more effective
 
+  let promise = new Promise((resolve, reject) => {
+    setTimeout(() => resolve("Hello promise world..."), 1000);
+  });
+  promise.then(message => console.log(message));
+
+  
+
 // #####    09072023    #####
 
 // #####  Day26:  08072023    #####
