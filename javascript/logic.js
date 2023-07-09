@@ -4,6 +4,14 @@
 
 
 
+// #####  Day27:  09072023    #####
+
+  // ? =======> Using promises
+  // * Promises are a powerful tool for handling asynchronous operations in JS
+  // * Having a solid understanding of promises will help you write code more effective
+
+// #####    09072023    #####
+
 // #####  Day26:  08072023    #####
 
   // ? =======> Using 'null' and 'undefined' appropriately
