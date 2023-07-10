@@ -4,6 +4,14 @@
 
 
 
+// #####  Day28:  10072023    #####
+
+  // ? =======> Using modern JavaScript features
+  // * These features include async/await
+  
+  
+// #####    10072023    #####
+
 // #####  Day27:  09072023    #####
 
   // ? =======> Using promises
@@ -13,9 +21,7 @@
   let promise = new Promise((resolve, reject) => {
     setTimeout(() => resolve("Hello promise world..."), 1000);
   });
-  promise.then(message => console.log(message));
-
-  
+  promise.then(message => console.log(message));  
 
 // #####    09072023    #####
 
