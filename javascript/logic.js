@@ -7,8 +7,15 @@
 // #####  Day28:  10072023    #####
 
   // ? =======> Using modern JavaScript features
-  // * These features include async/await
-  
+  // * These features include async/await,
+  // * async/await feature makes promises easier to write
+
+  async function getData() {
+    let response = await fetch("https://gracerestorationchurch.com");
+    let data = await response.json();
+    return data;
+  }
+  getData().then(data => console.log(data));
   
 // #####    10072023    #####
 
