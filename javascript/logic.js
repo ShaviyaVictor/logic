@@ -18,6 +18,10 @@
   function Button({ onClick }) {
     return <button onClick={onClick}>Click me!</button>;
   };
+  ReactDOM.render(
+    <Button onClick={() => console.log('Clicked!')}/>,
+    document.getElementById("root")
+  );
 
 // #####    11072023    #####
 
