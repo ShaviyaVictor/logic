@@ -10,18 +10,18 @@
   // * JS libraries and frameworks such as jQuery and React help to organize and clean up your code saving u time & effort
 
   // jQUERY
-  $("button").click(event => {
-    console.log("button clicked!");
-  });
+    // $("button").click(event => {
+    //   console.log("button clicked!");
+    // });
 
   // React
-  function Button({ onClick }) {
-    return <button onClick={onClick}>Click me!</button>;
-  };
-  ReactDOM.render(
-    <Button onClick={() => console.log('Clicked!')}/>,
-    document.getElementById("root")
-  );
+    // function Button({ onClick }) {
+    //   return <button onClick={onClick}>Click me!</button>;
+    // };
+    // ReactDOM.render(
+    //   <Button onClick={() => console.log('Clicked!')}/>,
+    //   document.getElementById("root")
+    // );
 
 // #####    11072023    #####
 
