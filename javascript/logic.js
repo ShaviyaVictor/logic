@@ -9,6 +9,11 @@
   // ? =======> JavaScript Libraries and Frameworks
   // * JS libraries and frameworks such as jQuery and React help to organize and clean up your code saving u time & effort
 
+  // jQUERY
+  $("button").click(event => {
+    console.log("button clicked!");
+  });
+
 // #####    11072023    #####
 
 // #####  Day28:  10072023    #####
