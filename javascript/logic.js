@@ -14,6 +14,11 @@
     console.log("button clicked!");
   });
 
+  // React
+  function Button({ onClick }) {
+    return <button onClick={onClick}>Click me!</button>;
+  };
+
 // #####    11072023    #####
 
 // #####  Day28:  10072023    #####
