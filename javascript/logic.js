@@ -22,9 +22,15 @@
   // console.log(money);
   
   // ? =======> 3: Generating Star Ratings
+
   const starScore = rate => "★★★★★☆☆☆☆☆".slice(5 - rate, 10 - rate);
   const stars = starScore(3);
   console.log(stars);
+
+  // ? =======> 4: Generating Random HEX COlor Values
+  const randomColor = () => "#" + Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0");
+  const color = randomColor();
+  console.log(color);
 
 // #####    12072023    #####
 
