@@ -28,9 +28,17 @@
   console.log(stars);
 
   // ? =======> 4: Generating Random HEX COlor Values
+
   const randomColor = () => "#" + Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0");
   const color = randomColor();
   console.log(color);
+
+  // ? =======> 5: Operation URL Query Parameters
+  
+  const params = new URLSearchParams(location.search.replace(/\?/ig, ""));
+  // location.search = "?name=young&sex=male"
+  params.has("young"); // true
+  params.get("sex"); // male
 
 // #####    12072023    #####
 
