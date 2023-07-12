@@ -9,7 +9,11 @@
 
   // ! String Tips
 
-  // ? =======> 1: 
+  // ? =======> 1: Generating random ID
+  const randomId = len => Math.random().toString(36).substring(3, len);
+  const id = randomId(10);
+  console.log(id);
+
 // #####    12072023    #####
 
 
