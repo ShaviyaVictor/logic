@@ -9,10 +9,17 @@
 
   // ! String Tips
 
-  // ? =======> 1: Generating random ID
+  // ? =======> 1: Generating Random ID
+
   const randomId = len => Math.random().toString(36).substring(3, len);
   const id = randomId(10);
   console.log(id);
+
+  // ? =======> 2: Formatting Money
+
+  const thousandNum = num => num.toString().replace(/\B(?=9\d{3})+(?!\d))/g, ",");
+  const money = thousandNum(202319962022);
+  console.log(money);
 
 // #####    12072023    #####
 
