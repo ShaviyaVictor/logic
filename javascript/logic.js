@@ -17,9 +17,14 @@
 
   // ? =======> 2: Formatting Money
 
-  const thousandNum = num => num.toString().replace(/\B(?=9\d{3})+(?!\d))/g, ",");
-  const money = thousandNum(202319962022);
-  console.log(money);
+  // const thousandNum = num => num.toString().replace(/\B(?=9\d{3})+(?!\d))/g, ",");
+  // const money = thousandNum(202319962022);
+  // console.log(money);
+  
+  // ? =======> 3: Generating Star Ratings
+  const starScore = rate => "★★★★★☆☆☆☆☆".slice(5 - rate, 10 - rate);
+  const stars = starScore(3);
+  console.log(stars);
 
 // #####    12072023    #####
 
