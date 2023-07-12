@@ -17,6 +17,7 @@
 
   // ? =======> 2: Formatting Money
 
+  // * Below code is commented out since it's breaking something, to investigate the replace function
   // const thousandNum = num => num.toString().replace(/\B(?=9\d{3})+(?!\d))/g, ",");
   // const money = thousandNum(202319962022);
   // console.log(money);
