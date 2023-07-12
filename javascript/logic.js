@@ -1,7 +1,21 @@
 
-// TODO 2 // Challenge 2: https://javascript.plainenglish.io/13-javascript-best-practices-7d293cacad00
-// TODO 2 In PROGRESS!!! -----> JavaScript Best Practices
 
+
+// TODO 3 // Challenge 3: https://levelup.gitconnected.com/some-javascript-tips-to-make-you-look-more-like-a-master-aaea9f92fc3c  
+// TODO 3 In PROGRESS!!! -----> Some JavaScript Tips To Make You Look More Like a Master
+
+
+// #####  Day30:  12072023    #####
+
+  // ! String Tips
+
+  // ? =======> 1: 
+// #####    12072023    #####
+
+
+
+// TODO 2 // Challenge 2: https://javascript.plainenglish.io/13-javascript-best-practices-7d293cacad00
+// TODO 2 Is Now DONE!!! -----> JavaScript Best Practices
 
 
 // #####  Day29:  11072023    #####
