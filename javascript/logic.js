@@ -53,6 +53,12 @@
   const numTo2Results = roundNumTo2(31.788862, 2);
   console.log(numTo2Results);
 
+  // ? =======> 6: Determining Parity
+
+  const oddOrEvenNum = num => !!(num & 1) ? "odd" : "even";
+  const oddEvenResults = oddOrEvenNum(676);
+  console.log(oddEvenResults);
+
 // #####    13072023    #####
 
 // #####  Day30:  12072023    #####
