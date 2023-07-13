@@ -26,6 +26,16 @@
 
   // * Valid only for null, "", false, numeric strings 
 
+  const num29 = +null;
+  const num30 = +"";
+  const num31 = +false;
+  const num32 = +"132";
+
+  console.log(num29);
+  console.log(num30);
+  console.log(num31);
+  console.log(num32);
+
 // #####    13072023    #####
 
 // #####  Day30:  12072023    #####
