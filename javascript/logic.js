@@ -9,7 +9,18 @@
 
   // ! Number Tips
 
-  // ? =======> 1: 
+  // ? =======> 1: Rounding
+
+  // * Use Math.floor() - for positive numbers
+  // * USe Math.ceil() - for negative numbers
+
+  const floorTheNum1 = ~~2.895;
+  const floorTheNum2 = 8.99 | 0;
+  const floorTheNum3 = 5.29 >> 0;
+
+  console.log(floorTheNum1);
+  console.log(floorTheNum2);
+  console.log(floorTheNum3);
 
 // #####    13072023    #####
 
