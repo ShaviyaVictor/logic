@@ -22,6 +22,10 @@
   console.log(floorTheNum2);
   console.log(floorTheNum3);
 
+  // ? =======> 2: Transfering Value
+
+  // * Valid only for null, "", false, numeric strings 
+
 // #####    13072023    #####
 
 // #####  Day30:  12072023    #####
