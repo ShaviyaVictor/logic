@@ -42,6 +42,11 @@
   const paddedNumber = fillWithZeros(1996, 8);
   console.log(paddedNumber);
 
+  // ? =======> 4: Timestamp
+
+  const currentTimestamp = +new Date("2023-07-13");
+  console.log(currentTimestamp);
+
 // #####    13072023    #####
 
 // #####  Day30:  12072023    #####
