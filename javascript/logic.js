@@ -5,6 +5,14 @@
 // TODO 3 In PROGRESS!!! -----> Some JavaScript Tips To Make You Look More Like a Master
 
 
+// #####  Day31:  13072023    #####
+
+  // ! Number Tips
+
+  // ? =======> 1: 
+
+// #####    13072023    #####
+
 // #####  Day30:  12072023    #####
 
   // ! String Tips
