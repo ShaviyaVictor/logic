@@ -47,6 +47,12 @@
   const currentTimestamp = +new Date("2023-07-13");
   console.log(currentTimestamp);
 
+  // ? =======> 5: Rounding Off To Precise Decimals
+
+  const roundNumTo2 = (num, decimal) => Math.round(num * 10 ** decimal) / 10 ** decimal;
+  const numTo2Results = roundNumTo2(31.788862, 2);
+  console.log(numTo2Results);
+
 // #####    13072023    #####
 
 // #####  Day30:  12072023    #####
