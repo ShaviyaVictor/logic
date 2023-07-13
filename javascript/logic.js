@@ -59,6 +59,8 @@
   const oddEvenResults = oddOrEvenNum(676);
   console.log(oddEvenResults);
 
+  // * Search for the Math.min / Math.max to find shorthand impl of the same down in this logic file 
+
 // #####    13072023    #####
 
 // #####  Day30:  12072023    #####
