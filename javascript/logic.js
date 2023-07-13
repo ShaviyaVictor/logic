@@ -36,6 +36,12 @@
   console.log(num31);
   console.log(num32);
 
+  // ? =======> 3: Complementary Zero
+
+  const fillWithZeros = (num, len) => num.toString().padStart(len, "0");
+  const paddedNumber = fillWithZeros(1996, 8);
+  console.log(paddedNumber);
+
 // #####    13072023    #####
 
 // #####  Day30:  12072023    #####
