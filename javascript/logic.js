@@ -82,6 +82,21 @@
   let generateArray = [...new Array(6).keys()];
   console.log(generateArray);
 
+  // ? =======> 7: reduce() method as an alternative for map() or filter() methods
+  // * https://stackoverflow.com/a/155633/17420216
+
+  let originalArray2reduce = [0, 1, 2, 4];
+  
+  // map() vs reduce()
+  let map1_OriginalArray2reduce = originalArray2reduce.map((eachValue) => eachValue * 2);
+  console.log(map1_OriginalArray2reduce);
+
+  let reduce1_originalArray2reduce = originalArray2reduce.reduce((previous, next) => {
+    previous.push(next * 2);
+    return previous;
+  }, []);
+  console.log(reduce1_originalArray2reduce);
+
 // #####    14072023    #####
 
 // #####  Day31:  13072023    #####
