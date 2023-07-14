@@ -30,6 +30,19 @@
   let mergedArraysMethod3 = array2Merge2.reduce((previous, next) => previous.concat(next), array2Merge1);
   console.log(mergedArraysMethod3);
 
+  // ? =======> 3: Remove Duplicates from an Array || De-duplicate an Array
+
+  // not so clean way but direct 
+  let deduplicatedArray1 = [...new Set(["Vic", "Vic", 3, 5, 3, 8, 5, "Jos", 5, "Jos"])];
+  console.log(deduplicatedArray1);
+
+  // a cleaner way 
+  let array2Deduplicate = ["Vic", "Vic", 3, 5, 3, 8, 5, "Jos", 5, "Jos"];
+
+  let deduplicatedArray2 = [... new Set(array2Deduplicate)];
+  console.log(deduplicatedArray2);
+
+
 // #####    14072023    #####
 
 // #####  Day31:  13072023    #####
