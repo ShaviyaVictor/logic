@@ -107,6 +107,18 @@
   }, []);
   console.log(reduce2_originalArray2reduce);
 
+  // map() && filter() combined vs reduce()
+  let mapfilter_OriginalArray2reduce = originalArray2reduce.map((eachValue) => eachValue * 2)
+                                                           .filter((eachValue) => eachValue > 2);
+  console.log(mapfilter_OriginalArray2reduce);
+
+  let reduce3_originalArray2reduce = originalArray2reduce.reduce((previous, next) => {
+    next = next * 2;
+    next > 2 && previous.push(next);
+    return previous;
+  }, []);
+  console.log(reduce3_originalArray2reduce);
+
 // #####    14072023    #####
 
 // #####  Day31:  13072023    #####
