@@ -9,7 +9,12 @@
 
   // ! Array Tips
 
-  // ? =======> 1: Cloning Array
+  // ? =======> 1: Cloning an Array
+
+  const nuclearFam = ["Jane", "Norris", "Jos", "Shaviya"];
+  const cloneNuclearFam = [...nuclearFam];
+
+  console.log(cloneNuclearFam);
 
 // #####    14072023    #####
 
