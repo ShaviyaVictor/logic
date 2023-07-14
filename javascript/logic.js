@@ -16,6 +16,20 @@
 
   console.log(cloneNuclearFam);
 
+  // ? =======> 2: Merging Arrays
+
+  let array2Merge1 = ["Jane", "Norris", "Jos", "Shaviya"];
+  let array2Merge2 = ["Hycine", "Fidel", "Faith", "Rhodah"];
+
+  let mergedArraysMethod1 = [...array2Merge1, ...array2Merge2];
+  console.log(mergedArraysMethod1);
+
+  let mergedArraysMethod2 = array2Merge1.concat(array2Merge2);
+  console.log(mergedArraysMethod2);
+
+  let mergedArraysMethod3 = array2Merge2.reduce((previous, next) => previous.concat(next), array2Merge1);
+  console.log(mergedArraysMethod3);
+
 // #####    14072023    #####
 
 // #####  Day31:  13072023    #####
@@ -735,10 +749,10 @@
    * Iterating over the characters of a String using a for loop
    *  and converting the characters of the string into an array using the push() method
    */
-  let array5 = "Andrew Hylton, Rosue Walford, Chadan Huggup";
+  let stringToIterate = "Andrew Hylton, Rosue Walford, Chadan Huggup";
   let array6 = [];
-  for (let i=0; i<array5.length; i++) {
-    array6.push(array5[i])
+  for (let i=0; i<stringToIterate.length; i++) {
+    array6.push(stringToIterate[i])
   }
   console.log(array6)
   
