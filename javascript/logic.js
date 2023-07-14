@@ -75,6 +75,13 @@
   let insert2originalArray7 = insertMom0.reduce((previous, next) => previous.concat(next), originalArray2);
   console.log(insert2originalArray7);
 
+  // ? =======> 6: Creating an Array of specified Length
+
+  // * Using the index as the key for the generated array 
+  // * thus generating an Array starting from 0...
+  let generateArray = [...new Array(6).keys()];
+  console.log(generateArray);
+
 // #####    14072023    #####
 
 // #####  Day31:  13072023    #####
