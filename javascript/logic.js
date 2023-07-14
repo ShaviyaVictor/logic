@@ -42,7 +42,7 @@
   let deduplicatedArray2 = [... new Set(array2Deduplicate)];
   console.log(deduplicatedArray2);
 
-  // ? =======> 4: Inserting a member at the beginning of an Array
+  // ? =======> 4: Inserting a member at the Beginning of an Array
 
   let originalArray = [2, "Jos", 2, "Vic"];
 
@@ -56,6 +56,24 @@
 
   let insert2originalArray3 = [...insertMom, ...originalArray];
   console.log(insert2originalArray3);
+
+  // ? =======> 5: Inserting a member at the End of an Array
+
+  let originalArray2 = [2, "Jos", 2, "Vic"];
+
+  // prints the length of the array on the console 
+  let insert2originalArray4 = originalArray2.push("Norris");
+  console.log(insert2originalArray4);
+
+  let insertMom0 = [2, "Mom"]
+  let insert2originalArray5 = originalArray2.concat(insertMom0);
+  console.log(insert2originalArray5);
+
+  let insert2originalArray6 = [...originalArray2, ...insertMom0];
+  console.log(insert2originalArray6);
+
+  let insert2originalArray7 = insertMom0.reduce((previous, next) => previous.concat(next), originalArray2);
+  console.log(insert2originalArray7);
 
 // #####    14072023    #####
 
