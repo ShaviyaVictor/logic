@@ -72,11 +72,11 @@
   // ? =======> 5: Removing Unwanted Properties from an Object
 
   let nuclearFamObj2Remove = {
-    mother:"Jane",
-    bro:"Norris",
-    sis:"Josphine",
-    me:"Victor",
-    dad:"David"
+    "mother":"Jane",
+    "bro":"Norris",
+    "sis":"Josphine",
+    "me":"Victor",
+    "dad":"David"
   };
 
   // * Method1 - using delete keyword - NOT the most Optimal
@@ -85,6 +85,13 @@
 
   // * Method2 - removing and looping through the rest -- not sure why it's not working, to revisit
   // let { me, ...rest } =nuclearFamObj2RemovedMe;
+
+  // * Method3 - Using the Object.fromEntries(), Object.Entries() and filter() functions
+  // * the Object methods won't work if the key of the JSON object is not in double quotes as expected
+  let nuclearFamObj2RemovedGents = Object.fromEntries(
+    Object.entries(nuclearFamObj2Remove).filter(([key]) => key !== "bro" && key !== "me")
+  );
+  console.log(nuclearFamObj2RemovedGents);
 
 // #####    15072023    #####
 
