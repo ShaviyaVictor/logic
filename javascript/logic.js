@@ -35,6 +35,20 @@
   let cloneNuclearFamObjMethod4 = Object.assign({}, nuclearFamObj);
   console.log(cloneNuclearFamObjMethod4);
   
+  // ? =======> 2: Merging Objects
+  let gentsFamObj2Merge = {
+    "bro":"Norris",
+    "me":"Victor",
+    "dad":"David"
+  };
+  let ladiesFamObj2Merge = {
+    "mother":"Jane",
+    "sis":"Josphine"
+  };
+  
+  let mergedFamObj = { ...gentsFamObj2Merge, ...ladiesFamObj2Merge };
+  console.log(mergedFamObj);
+
 // #####    15072023    #####
 
 // #####  Day32:  14072023    #####
