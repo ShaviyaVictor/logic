@@ -19,15 +19,21 @@
     "dad":"David"
   };
 
+  // * Method1 - looping through
   let cloneNuclearFamObjMethod1 = { ...nuclearFamObj };
   console.log(cloneNuclearFamObjMethod1);
 
+  // * Method2 - using JSON
   let stringSetObj = JSON.stringify(nuclearFamObj);
   let cloneNuclearFamObjMethod2 = JSON.parse(stringSetObj);
   console.log(cloneNuclearFamObjMethod2);
   // OR 
   let cloneNuclearFamObjMethod3 = JSON.parse(JSON.stringify(nuclearFamObj));
   console.log(cloneNuclearFamObjMethod3);
+
+  // * Method3 - using Object.assign() method
+  let cloneNuclearFamObjMethod4 = Object.assign({}, nuclearFamObj);
+  console.log(cloneNuclearFamObjMethod4);
   
 // #####    15072023    #####
 
