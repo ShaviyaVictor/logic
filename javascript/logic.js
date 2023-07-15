@@ -61,6 +61,13 @@
   
   // env => "Production url"
   
+  // ? =======> 4: Creating an Empty Object
+
+  let newNullObj = Object.create(null);
+  // Object.prototype.a = 0;
+
+  console.log(newNullObj);
+
 // #####    15072023    #####
 
 // #####  Day32:  14072023    #####
