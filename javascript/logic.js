@@ -21,6 +21,13 @@
 
   let cloneNuclearFamObjMethod1 = { ...nuclearFamObj };
   console.log(cloneNuclearFamObjMethod1);
+
+  let stringSetObj = JSON.stringify(nuclearFamObj);
+  let cloneNuclearFamObjMethod2 = JSON.parse(stringSetObj);
+  console.log(cloneNuclearFamObjMethod2);
+  // OR 
+  let cloneNuclearFamObjMethod3 = JSON.parse(JSON.stringify(nuclearFamObj));
+  console.log(cloneNuclearFamObjMethod3);
   
 // #####    15072023    #####
 
