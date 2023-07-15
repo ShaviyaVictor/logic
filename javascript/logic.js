@@ -68,6 +68,21 @@
 
   console.log(newNullObj);
 
+  
+  // ? =======> 5: Removing Unwanted Properties from an Object
+
+  let nuclearFamObj2Remove = {
+    mother:"Jane",
+    bro:"Norris",
+    sis:"Josphine",
+    me:"Victor",
+    dad:"David"
+  };
+
+  // * Method1 - using delete keyword
+  delete nuclearFamObj2Remove.dad;
+  console.log(nuclearFamObj2Remove);
+
 // #####    15072023    #####
 
 // #####  Day32:  14072023    #####
