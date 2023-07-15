@@ -36,6 +36,7 @@
   console.log(cloneNuclearFamObjMethod4);
   
   // ? =======> 2: Merging Objects
+
   let gentsFamObj2Merge = {
     "bro":"Norris",
     "me":"Victor",
@@ -49,6 +50,17 @@
   let mergedFamObj = { ...gentsFamObj2Merge, ...ladiesFamObj2Merge };
   console.log(mergedFamObj);
 
+  // ? =======> 3: Object literal
+
+  let env = prod;
+  let dbUrl = {
+    dev: "Development url",
+    stg: "Staging url",
+    prod: "Production url"
+  } [env];
+  
+  // env => "Production url"
+  
 // #####    15072023    #####
 
 // #####  Day32:  14072023    #####
