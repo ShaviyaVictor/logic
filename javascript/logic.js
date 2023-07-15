@@ -9,7 +9,18 @@
 
   // ! Object Tips
 
-  // ? =======> 1: 
+  // ? =======> 1: Cloning an Object
+
+  let nuclearFamObj = {
+    "mother":"Jane",
+    "bro":"Norris",
+    "sis":"Josphine",
+    "me":"Victor",
+    "dad":"David"
+  };
+
+  let cloneNuclearFamObjMethod1 = { ...nuclearFamObj };
+  console.log(cloneNuclearFamObjMethod1);
   
 // #####    15072023    #####
 
