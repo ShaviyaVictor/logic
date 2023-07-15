@@ -52,12 +52,12 @@
 
   // ? =======> 3: Object literal
 
-  let env = prod;
-  let dbUrl = {
-    dev: "Development url",
-    stg: "Staging url",
-    prod: "Production url"
-  } [env];
+  // let env = prod;
+  // let dbUrl = {
+  //   dev: "Development url",
+  //   stg: "Staging url",
+  //   prod: "Production url"
+  // } [env];
   
   // env => "Production url"
   
