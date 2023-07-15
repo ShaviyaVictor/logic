@@ -79,9 +79,12 @@
     dad:"David"
   };
 
-  // * Method1 - using delete keyword
+  // * Method1 - using delete keyword - NOT the most Optimal
   delete nuclearFamObj2Remove.dad;
   console.log(nuclearFamObj2Remove);
+
+  // * Method2 - removing and looping through the rest -- not sure why it's not working, to revisit
+  // let { me, ...rest } =nuclearFamObj2RemovedMe;
 
 // #####    15072023    #####
 
