@@ -1,8 +1,22 @@
 
 
 
-// TODO 3 // Challenge 3: https://levelup.gitconnected.com/some-javascript-tips-to-make-you-look-more-like-a-master-aaea9f92fc3c  
-// TODO 3 In PROGRESS!!! -----> Some JavaScript Tips To Make You Look More Like a Master
+// TODO 4 // Challenge 3: [05062023] https://medium.com/fullstack-programming-in-english/javascript-tips-and-tricks-using-powerful-functions-with-an-array-of-objects-d5daf27b1b4a  
+// TODO 4 In Progress!!! -----> JavaScript Tips and Tricks: Using Powerful Functions With an Array of Objects
+
+
+// #####  Day34:  17072023    #####
+
+  // ! Object Tips
+
+  // ? =======>
+
+// #####    17072023    #####
+
+
+
+// TODO 3 // Challenge 3: [06042023] https://levelup.gitconnected.com/some-javascript-tips-to-make-you-look-more-like-a-master-aaea9f92fc3c  
+// TODO 3 Is Now DONE!!! -----> Some JavaScript Tips To Make You Look More Like a Master
 
 
 // #####  Day33:  15072023    #####
