@@ -6,6 +6,23 @@
 
   // ! The challenges on the Part 4 will revolve around the various operations that you can do on a single Array of Objects
 
+  // * Array test-case with the objects to work on 
+
+  let studentsObjectsArray = [
+    {
+      "name": "Shaviya",
+      "isOnline": false
+    },
+    {
+      "name": "Jos",
+      "isOnline": false
+    },
+    {
+      "name": "Norris",
+      "isOnline": true
+    },
+  ];
+
 // #####  Day34:  17072023    #####
 
   // ? =======>
