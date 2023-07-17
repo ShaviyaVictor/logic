@@ -15,17 +15,32 @@
     },
     {
       "name": "Jos",
-      "isOnline": false
+      "isOnline": true
     },
     {
       "name": "Norris",
-      "isOnline": true
+      "isOnline": false
     },
   ];
+  console.log(studentsObjectsArray);
 
 // #####  Day34:  17072023    #####
 
   // ? =======> Using Array Sort Method to Sort the Objects in the Array
+
+  studentsObjectsArray.sort((first, second) => {
+    if (first.isOnline && !second.isOnline) {
+      return -1
+    }
+    else if (!first.isOnline && second.isOnline) {
+      return 1
+    }
+    else {
+      return 0
+    }
+  });
+  // not sure how the above logic ServiceWorkerRegistration, but it'll make sense soon enough
+  console.log(studentsObjectsArray);
 
 // #####    17072023    #####
 
