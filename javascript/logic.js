@@ -4,10 +4,9 @@
 // TODO 4 // Challenge 3: [05062023] https://medium.com/fullstack-programming-in-english/javascript-tips-and-tricks-using-powerful-functions-with-an-array-of-objects-d5daf27b1b4a  
 // TODO 4 In Progress!!! -----> JavaScript Tips and Tricks: Using Powerful Functions With an Array of Objects
 
+  // ! The challenges on the Part 4 will revolve around the various operations that you can do on a single Array of Objects
 
 // #####  Day34:  17072023    #####
-
-  // ! Object Tips
 
   // ? =======>
 
