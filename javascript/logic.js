@@ -21,6 +21,10 @@
       "name": "Norris",
       "isOnline": false
     },
+    {
+      "name": "Norris",
+      "isOnline": true
+    }
   ];
   console.log(studentsObjectsArray);
 
@@ -36,6 +40,10 @@
     return first.localeCompare(second);
   });
   console.log(studentNamesArray);
+
+  // removing duplicate names from the array
+  newStudentNamesArray = [...new Set(studentNamesArray)];
+  console.log(newStudentNamesArray);
 
 // #####    18072023    #####
 
