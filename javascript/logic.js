@@ -28,8 +28,10 @@
 
   // ? =======> Sorting an Array of Strings
 
+  // loop through the object getting the names 
   let studentNamesArray = studentsObjectsArray.map((eachStudent) => eachStudent.name);
 
+  // sort the names and use localeCompare() function that checks if a given string comes before, after, or is equivalent to another string in sort order
   studentNamesArray.sort((first, second) => {
     return first.localeCompare(second);
   });
