@@ -24,6 +24,20 @@
   ];
   console.log(studentsObjectsArray);
 
+// #####  Day35:  18072023    #####
+
+  // ? =======> Sorting an Array of Strings
+
+  let studentNamesArray = studentsObjectsArray.map((eachStudent) => eachStudent.name);
+
+  studentNamesArray.sort((first, second) => {
+    return first.localeCompare(second);
+  });
+  console.log(studentNamesArray);
+
+// #####    18072023    #####
+
+
 // #####  Day34:  17072023    #####
 
   // ? =======> Using Array Sort Method to Sort the Objects in the Array
