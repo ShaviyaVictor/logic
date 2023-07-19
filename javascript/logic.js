@@ -28,6 +28,22 @@
   ];
   console.log(studentsObjectsArray);
 
+// #####  Day36:  19072023    #####
+
+  // ? =======> Solving Scope Issues Using an IIFE
+  // * The Scope Issues arise in times when we have to work with the var keyword 
+
+  for (var i=0; i<studentsObjectsArray.length; i++) {
+
+    setTimeout(() => {
+      console.log(studentsObjectsArray[i]);
+    }, 1000);
+
+  };
+  // Output: // undefined undefined undefined undefined
+
+// #####    19072023    #####
+
 // #####  Day35:  18072023    #####
 
   // ? =======> Sorting an Array of Strings
@@ -46,7 +62,6 @@
   console.log(newStudentNamesArray);
 
 // #####    18072023    #####
-
 
 // #####  Day34:  17072023    #####
 
