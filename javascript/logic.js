@@ -41,6 +41,10 @@
 
   };
   // Output: // undefined undefined undefined undefined
+  // * If we print the students Objects after a second, we get undefined error 
+  // * Since var is a global scope, the values of i increase first 
+  // * The post-loop value of i is 4 & then when the setTimeout method is ChannelSplitterNode, object value for the respective i(studentsObjectsArray[i]) becomes undefined
+  // * This is because the last object iterated in the loop is stored in the 3rd index hence the value in the 4th index is not there
 
 // #####    19072023    #####
 
