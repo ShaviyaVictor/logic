@@ -33,10 +33,11 @@
   // ? =======> Solving Scope Issues Using an IIFE
   // * The Scope Issues arise in times when we have to work with the var keyword 
 
-  for (var i=0; i<studentsObjectsArray.length; i++) {
+  let newStudentNamesArray = studentsObjectsArray.map((eachStudent) => eachStudent.name);
+  for (var i=0; i<newStudentNamesArray.length; i++) {
 
     setTimeout(() => {
-      console.log(studentsObjectsArray[i]);
+      console.log(newStudentNamesArray[i]);
     }, 1000);
 
   };
@@ -45,6 +46,19 @@
   // * Since var is a global scope, the values of i increase first 
   // * The post-loop value of i is 4 & then when the setTimeout method is ChannelSplitterNode, object value for the respective i(studentsObjectsArray[i]) becomes undefined
   // * This is because the last object iterated in the loop is stored in the 3rd index hence the value in the 4th index is not there
+
+  for (var i=0; i<newStudentNamesArray.length; i++) {
+
+    ((student) => {
+      setTimeout(() => {
+        console.log(student);
+      }, 1000)
+    })(newStudentNamesArray[i])
+
+  };
+  // Output: // Shaviya Jos Norris Norris
+  // * IIFE has been used to create a new function scope for setTimeout
+  // * essentially wrapping the setTimeout() method in an IIFE 
 
 // #####    19072023    #####
 
