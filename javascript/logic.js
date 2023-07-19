@@ -66,6 +66,9 @@
       console.log(newStudentNamesArray[i]);
     }, 1000)
   };
+  // Output: // Shaviya Jos Norris Norris
+  // *SInce the let keyword of ES6 has block scope;
+    // * the i values are stored in each loop and we thus can see the consecutive values 
 
 // #####    19072023    #####
 
