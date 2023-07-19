@@ -34,6 +34,7 @@
   // * The Scope Issues arise in times when we have to work with the var keyword 
 
   let newStudentNamesArray = studentsObjectsArray.map((eachStudent) => eachStudent.name);
+  
   for (var i=0; i<newStudentNamesArray.length; i++) {
 
     setTimeout(() => {
@@ -59,6 +60,12 @@
   // Output: // Shaviya Jos Norris Norris
   // * IIFE has been used to create a new function scope for setTimeout
   // * essentially wrapping the setTimeout() method in an IIFE 
+
+  for (let i=0; i<newStudentNamesArray.length; i++) {
+    setTimeout(() => {
+      console.log(newStudentNamesArray[i]);
+    }, 1000)
+  };
 
 // #####    19072023    #####
 
