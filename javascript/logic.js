@@ -30,44 +30,44 @@
 
 // #####  Day36:  19072023    #####
 
-  // ? =======> Solving Scope Issues Using an IIFE
+  // ? =======> Solving Scope Issues Using an IIFE - no prove for any of them, thus, to revisit
   // * The Scope Issues arise in times when we have to work with the var keyword 
 
   let newStudentNamesArray = studentsObjectsArray.map((eachStudent) => eachStudent.name);
   
-  for (var i=0; i<newStudentNamesArray.length; i++) {
+  // for (var i=0; i<newStudentNamesArray.length; i++) {
 
-    setTimeout(() => {
-      console.log(newStudentNamesArray[i]);
-    }, 1000);
+  //   setTimeout(() => {
+  //     console.log(newStudentNamesArray[i]);
+  //   }, 1000);
 
-  };
+  // };
   // Output: // undefined undefined undefined undefined
   // * If we print the students Objects after a second, we get undefined error 
   // * Since var is a global scope, the values of i increase first 
   // * The post-loop value of i is 4 & then when the setTimeout method is ChannelSplitterNode, object value for the respective i(studentsObjectsArray[i]) becomes undefined
   // * This is because the last object iterated in the loop is stored in the 3rd index hence the value in the 4th index is not there
 
-  for (var i=0; i<newStudentNamesArray.length; i++) {
+  // for (var i=0; i<newStudentNamesArray.length; i++) {
 
-    ((student) => {
-      setTimeout(() => {
-        console.log(student);
-      }, 1000)
-    })(newStudentNamesArray[i])
+  //   ((student) => {
+  //     setTimeout(() => {
+  //       console.log(student);
+  //     }, 1000)
+  //   })(newStudentNamesArray[i])
 
-  };
+  // };
   // Output: // Shaviya Jos Norris Norris
   // * IIFE has been used to create a new function scope for setTimeout
   // * essentially wrapping the setTimeout() method in an IIFE 
 
-  for (let i=0; i<newStudentNamesArray.length; i++) {
-    setTimeout(() => {
-      console.log(newStudentNamesArray[i]);
-    }, 1000)
-  };
+  // for (let i=0; i<newStudentNamesArray.length; i++) {
+  //   setTimeout(() => {
+  //     console.log(newStudentNamesArray[i]);
+  //   }, 1000)
+  // };
   // Output: // Shaviya Jos Norris Norris
-  // *SInce the let keyword of ES6 has block scope;
+  // *Since the let keyword of ES6 has block scope;
     // * the i values are stored in each loop and we thus can see the consecutive values 
 
 // #####    19072023    #####
