@@ -31,6 +31,9 @@
 // #####  Day37:  20072023    #####
 
   // ? =======> Converting Objects to Arrays Using Object.entries() method
+
+  let objects2Array = studentsObjectsArray.map((eachObject) => Object.entries(eachObject));
+  console.log(objects2Array);
   
 // #####    20072023    #####
 
