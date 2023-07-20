@@ -28,6 +28,12 @@
   ];
   console.log(studentsObjectsArray);
 
+// #####  Day37:  20072023    #####
+
+  // ? =======> Converting Objects to Arrays Using Object.entries() method
+  
+// #####    20072023    #####
+
 // #####  Day36:  19072023    #####
 
   // ? =======> Solving Scope Issues Using an IIFE - no prove for any of them, thus, to revisit
