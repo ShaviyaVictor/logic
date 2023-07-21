@@ -38,6 +38,12 @@
   
 // #####    20072023    #####
 
+// #####  Day38:  21072023    #####
+
+  // ? =======> Converting Arrays to Objects Using Object.fromEntries() method
+
+// #####    21072023    #####
+
 // #####  Day36:  19072023    #####
 
   // ? =======> Solving Scope Issues Using an IIFE - no prove for any of them, thus, to revisit
