@@ -33,14 +33,19 @@
   // ? =======> Converting Objects to Arrays Using Object.entries() method
   // * Sometimes we need to put objects in an Array as key values - Use map() & Object.entries() methods together
 
-  let objects2Array = studentsObjectsArray.map((eachObject) => Object.entries(eachObject));
-  console.log(objects2Array);
+  let objects2Arrays = studentsObjectsArray.map((eachObject) => Object.entries(eachObject));
+  console.log(objects2Arrays);
   
 // #####    20072023    #####
 
 // #####  Day38:  21072023    #####
 
   // ? =======> Converting Arrays to Objects Using Object.fromEntries() method
+
+  let array2ObjectsArray = objects2Arrays.map((element) => {
+    return Object.fromEntries(element);
+  });
+  console.log(array2ObjectsArray);
 
 // #####    21072023    #####
 
