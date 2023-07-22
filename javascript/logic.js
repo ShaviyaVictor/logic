@@ -4,6 +4,14 @@
 // TODO 5 // Challenge 3: [22072023] https://medium.com/@lelianto.eko/6-algorithms-that-software-developers-must-know-40d42d4208dc  
 // TODO 5 In Progress!!! -----> 6 Algorithms that Software Developers Must Know
 
+// ! 1: Sorting Algorithms
+
+// #####  Day38:  22072023    #####
+
+  // ? =======> Bubble Sort
+
+// #####    22072023    #####
+
 
 
 // TODO 4 // Challenge 3: [05062023] https://medium.com/fullstack-programming-in-english/javascript-tips-and-tricks-using-powerful-functions-with-an-array-of-objects-d5daf27b1b4a  
