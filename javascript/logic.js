@@ -1,8 +1,13 @@
 
 
 
+// TODO 5 // Challenge 3: [22072023] https://medium.com/@lelianto.eko/6-algorithms-that-software-developers-must-know-40d42d4208dc  
+// TODO 5 In Progress!!! -----> 6 Algorithms that Software Developers Must Know
+
+
+
 // TODO 4 // Challenge 3: [05062023] https://medium.com/fullstack-programming-in-english/javascript-tips-and-tricks-using-powerful-functions-with-an-array-of-objects-d5daf27b1b4a  
-// TODO 4 In Progress!!! -----> JavaScript Tips and Tricks: Using Powerful Functions With an Array of Objects
+// TODO 4 Is Now DONE!!! -----> JavaScript Tips and Tricks: Using Powerful Functions With an Array of Objects
 
   // ! The challenges on the Part 4 will revolve around the various operations that you can do on a single Array of Objects
 
@@ -42,10 +47,13 @@
 
   // ? =======> Converting Arrays to Objects Using Object.fromEntries() method
 
+
+  // let array2ObjectsArray = objects2Arrays.map((element) => Object.fromEntries(element));
+  // console.log(array2ObjectsArray);
+    // OR 
   let array2ObjectsArray = objects2Arrays.map((element) => {
     return Object.fromEntries(element);
   });
-  console.log(array2ObjectsArray);
 
 // #####    21072023    #####
 
@@ -355,7 +363,7 @@
 
   const floorTheNum1 = ~~2.895;
   const floorTheNum2 = 8.99 | 0;
-  const floorTheNum3 = 5.29 >> 0;
+  const floorTheNum3 = 5.89 >> 0;
 
   console.log(floorTheNum1);
   console.log(floorTheNum2);
