@@ -5,6 +5,7 @@
 // TODO 5 In Progress!!! -----> 6 Algorithms that Software Developers Must Know
 
 // ! 1: Sorting Algorithms
+// TODO - after am done with the algorithms within a category, am to reorder in terms of the numbering
 
 // * Array test-case with numbers to sort
 
@@ -13,7 +14,7 @@ console.log(sortArray);
 
 // #####  Day39:  24072023    #####
 
-  // ? =======> Merge Sort
+  // ? 2] =======> Merge Sort
 
   function mergeSorting(sortArray) {
     // To discontinue the program if the array consists of 1 item since there is nothing to sort 
@@ -60,7 +61,7 @@ console.log(sortArray);
 
 // #####  Day38:  22072023    #####
 
-  // ? =======> Bubble Sort
+  // ? 1] =======> Bubble Sort
 
   function bubbleSorting(sortArray) {
     for (let i=0; i<sortArray.length; i++) {
