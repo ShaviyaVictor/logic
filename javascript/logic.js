@@ -6,6 +6,12 @@
 
 // ! 1: Sorting Algorithms
 
+// #####  Day39:  24072023    #####
+
+  // ? =======> Merge Sort
+
+// #####    24072023    #####
+
 // #####  Day38:  22072023    #####
 
   // ? =======> Bubble Sort
@@ -13,6 +19,7 @@
   function bubbleSort(array) {
     for (let i=0; i<array.length; i++) {
       for (let j=0; j<array.length -i -1; j++) {
+        // checking a condition and if it passes, we swap the values 
         if (array[j] > array[j + 1]) {
           const temporaryValue = array[j];
           array[j] = array[j + 1];
