@@ -25,12 +25,30 @@ console.log(sortArray);
     const mid = ~~ divide2Two // or ose Math.floor()
     const left = sortArray.slice(0, mid);
     const right = sortArray.slice(mid);
-    console.log(right)
+    // console.log(right)
 
-    return merge(mergeSorting(left), mergeSorting(right));
+    return mergeTheTwo(mergeSorting(left), mergeSorting(right));
 
   }
   mergeSorting(sortArray);
+  console.log(sortArray);
+
+  function mergeTheTwo(left, right) {
+    const mergeResults = [];
+    let l = 0;
+    let r = 0;
+
+    while (l < left.length && r < right.length) {
+      if (left[l] < right[r]) {
+        mergeResults.push(left[l++]);
+      } else {
+        mergeResults.push(right[r++]);
+      }
+    }
+
+    return mergeResults.concat(left.slice(l)).concat(right.slice(r));
+
+  }
 
 // #####    24072023    #####
 
