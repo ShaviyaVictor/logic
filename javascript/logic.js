@@ -21,9 +21,11 @@
       for (let j=0; j<array.length -i -1; j++) {
         // checking a condition and if it passes, we swap the values 
         if (array[j] > array[j + 1]) {
+          // swapping array values 
           const temporaryValue = array[j];
           array[j] = array[j + 1];
           array[j + 1] = temporaryValue;
+          //OR --> [array[j], array[j+1]] = [array[j+1], array[j]];
         }
       }
     }
