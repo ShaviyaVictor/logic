@@ -27,18 +27,23 @@ console.log(sortArray);
     const right = sortArray.slice(mid);
     // console.log(right)
 
+    // return a function call for the method that concats the values of the divided array 
     return mergeTheTwo(mergeSorting(left), mergeSorting(right));
 
   }
   mergeSorting(sortArray);
   console.log(sortArray);
 
+  // function called/invoked in the above function
   function mergeTheTwo(left, right) {
+    // variables initialization
     const mergeResults = [];
     let l = 0;
     let r = 0;
 
+    // a while loop that ensures that the program runs as long as the 2 divided sides have values 
     while (l < left.length && r < right.length) {
+      // pushing the values to the initialized variable
       if (left[l] < right[r]) {
         mergeResults.push(left[l++]);
       } else {
@@ -46,6 +51,7 @@ console.log(sortArray);
       }
     }
 
+    // concatanation of the values 
     return mergeResults.concat(left.slice(l)).concat(right.slice(r));
 
   }
