@@ -15,6 +15,22 @@ console.log(sortArray);
 
   // ? =======> Merge Sort
 
+  function mergeSorting(sortArray) {
+    // To discontinue the program if the array consists of 1 item since there is nothing to sort 
+    if (sortArray.length === 1) {
+      return sortArray;
+    }
+
+    let divide2Two = sortArray.length / 2;
+    const mid = ~~ divide2Two // or ose Math.floor()
+    const left = sortArray.slice(0, mid);
+    const right = sortArray.slice(mid);
+    console.log(right)
+
+    return merge(mergeSorting(left), mergeSorting(right));
+
+  }
+  mergeSorting(sortArray);
 
 // #####    24072023    #####
 
@@ -22,7 +38,7 @@ console.log(sortArray);
 
   // ? =======> Bubble Sort
 
-  function bubbleSort(sortArray) {
+  function bubbleSorting(sortArray) {
     for (let i=0; i<sortArray.length; i++) {
       for (let j=0; j<sortArray.length -i -1; j++) {
         // checking a condition and if it passes, we swap the values 
@@ -43,7 +59,7 @@ console.log(sortArray);
     }
     return sortArray;
   };
-  bubbleSort(sortArray);
+  bubbleSorting(sortArray);
   console.log(sortArray);
 
 // #####    22072023    #####
