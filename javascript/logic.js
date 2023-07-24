@@ -6,9 +6,15 @@
 
 // ! 1: Sorting Algorithms
 
+// * Array test-case with numbers to sort
+
+let sortArray = [5, 8, 25, 10, 40, 33, 14];
+console.log(sortArray);
+
 // #####  Day39:  24072023    #####
 
   // ? =======> Merge Sort
+
 
 // #####    24072023    #####
 
@@ -16,21 +22,23 @@
 
   // ? =======> Bubble Sort
 
-  function bubbleSort(array) {
-    for (let i=0; i<array.length; i++) {
-      for (let j=0; j<array.length -i -1; j++) {
+  function bubbleSort(sortArray) {
+    for (let i=0; i<sortArray.length; i++) {
+      for (let j=0; j<sortArray.length -i -1; j++) {
         // checking a condition and if it passes, we swap the values 
-        if (array[j] > array[j + 1]) {
+        if (sortArray[j] > sortArray[j + 1]) {
           // swapping array values 
-          const temporaryValue = array[j];
-          array[j] = array[j + 1];
-          array[j + 1] = temporaryValue;
+          const temporaryValue = sortArray[j];
+          sortArray[j] = sortArray[j + 1];
+          sortArray[j + 1] = temporaryValue;
           //OR --> [array[j], array[j+1]] = [array[j+1], array[j]];
         }
       }
     }
-    return array;
+    return sortArray;
   };
+  bubbleSort(sortArray);
+  console.log(sortArray);
 
 // #####    22072023    #####
 
