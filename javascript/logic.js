@@ -8,7 +8,7 @@
 
 // * Array test-case with numbers to sort
 
-let sortArray = [5, 8, 25, 10, 40, 33, 14];
+let sortArray = [80, 5, 8, 25, 10, 40, 33, 14];
 console.log(sortArray);
 
 // #####  Day39:  24072023    #####
@@ -26,12 +26,18 @@ console.log(sortArray);
     for (let i=0; i<sortArray.length; i++) {
       for (let j=0; j<sortArray.length -i -1; j++) {
         // checking a condition and if it passes, we swap the values 
+        // the condition below will sort the array and arrange it in ascending order
         if (sortArray[j] > sortArray[j + 1]) {
           // swapping array values 
           const temporaryValue = sortArray[j];
           sortArray[j] = sortArray[j + 1];
           sortArray[j + 1] = temporaryValue;
-          //OR --> [array[j], array[j+1]] = [array[j+1], array[j]];
+            // TODO --> The below approaches have not worked, to revisit
+          // [sortArray[j], sortArray[j+1]] = [sortArray[j+1], sortArray[j]];
+            // OR 
+          // let prev = sortArray[j];
+          // let next = sortArray[j+1];
+          // [prev, next] = [next, prev];
         }
       }
     }
