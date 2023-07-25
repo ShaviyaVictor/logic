@@ -16,6 +16,13 @@ console.log(sortArray);
 
   // ? 3] =======> Quick Sort
 
+  // * function that takes in an array and 2 consecutive indexes as parameters and swaps the index values 
+  function swap(sortArray, i, j) {
+    const temporarySwapValue = sortArray[i];
+    sortArray[i] = sortArray[j];
+    sortArray[j] = temporarySwapValue;
+  }
+
 // #####    25072023    #####
 
 // #####  Day39:  24072023    #####
@@ -77,9 +84,9 @@ console.log(sortArray);
         // the condition below will sort the array and arrange it in ascending order
         if (sortArray[j] > sortArray[j + 1]) {
           // swapping array values 
-          const temporaryValue = sortArray[j];
+          const temporaryBubbleValue = sortArray[j];
           sortArray[j] = sortArray[j + 1];
-          sortArray[j + 1] = temporaryValue;
+          sortArray[j + 1] = temporaryBubbleValue;
             // TODO --> The below approaches have not worked, to revisit
           // [sortArray[j], sortArray[j+1]] = [sortArray[j+1], sortArray[j]];
             // OR 
