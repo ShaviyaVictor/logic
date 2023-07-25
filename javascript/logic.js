@@ -12,6 +12,12 @@
 let sortArray = [80, 5, 8, 25, 10, 40, 33, 14];
 console.log(sortArray);
 
+// #####  Day40:  25072023    #####
+
+  // ? 3] =======> Quick Sort
+
+// #####    25072023    #####
+
 // #####  Day39:  24072023    #####
 
   // ? 2] =======> Merge Sort
@@ -23,7 +29,7 @@ console.log(sortArray);
     }
 
     let divide2Two = sortArray.length / 2;
-    const mid = ~~ divide2Two // or ose Math.floor()
+    const mid = ~~ divide2Two // * or ose Math.floor() to catch odd numbered arrays
     const left = sortArray.slice(0, mid);
     const right = sortArray.slice(mid);
     // console.log(right)
@@ -35,16 +41,17 @@ console.log(sortArray);
   mergeSorting(sortArray);
   console.log(sortArray);
 
-  // function called/invoked in the above function
+  //* function called/invoked in the above function
   function mergeTheTwo(left, right) {
     // variables initialization
     const mergeResults = [];
     let l = 0;
     let r = 0;
 
-    // a while loop that ensures that the program runs as long as the 2 divided sides have values 
+    // a while loop that ensures that the program runs as long as the left & right sides have values 
     while (l < left.length && r < right.length) {
       // pushing the values to the initialized variable
+      // TODO -> look into: not yet being able to expalin the below if condition 
       if (left[l] < right[r]) {
         mergeResults.push(left[l++]);
       } else {
