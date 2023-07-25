@@ -29,6 +29,9 @@ console.log(sortArray);
     return sortArray;
 
   }
+  // TODO -> calling the quick sort function breaks the logic, to revisit
+  // function quickSorting(sortArray, left = 0, right = sortArray.length - 1);
+  console.log(sortArray);
 
   // * function that uses the swap function returns the following index's value
   function partitioningSwapValues(sortArray, left, right) {
