@@ -16,8 +16,22 @@ console.log(sortArray);
 
   // ? 3] =======> Quick Sort
 
-  // * function that takes in an array and 2 consecutive indexes as parameters and swaps the index values 
-  function swap(sortArray, i, j) {
+  function partitioningSwapValues(sortArray, left, right) {
+    let pivot = sortArray[right];
+    let i = left - 1;
+
+    for (let j=left; j<right; j++) {
+      if (sortArray[j] <= pivot) {
+        i++;
+        swapValues(sortArray, i, j);
+      }
+    }
+    swapValues(sortArray, i + 1, right);
+    return i + 1;
+  }
+
+  // * swapValues function that takes in an array and 2 consecutive indexes as parameters and swaps the index values 
+  function swapValues(sortArray, i, j) {
     const temporarySwapValue = sortArray[i];
     sortArray[i] = sortArray[j];
     sortArray[j] = temporarySwapValue;
