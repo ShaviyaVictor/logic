@@ -16,6 +16,21 @@ console.log(sortArray);
 
   // ? 3] =======> Quick Sort
 
+  function quickSorting(sortArray, left = 0, right = sortArray.length - 1) {
+
+    if ( left < right) {
+      const pivotIndex = partitioningSwapValues(sortArray, left, right);
+
+      quickSorting(sortArray, left, pivotIndex - 1);
+      quickSorting(sortArray, pivotIndex + 1, right);
+
+    }
+
+    return sortArray;
+
+  }
+
+  // * function that uses the swap function returns the following index's value
   function partitioningSwapValues(sortArray, left, right) {
     let pivot = sortArray[right];
     let i = left - 1;
