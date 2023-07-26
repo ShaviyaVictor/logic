@@ -17,10 +17,14 @@ console.log(sortArray);
   // ? 4] =======> Heap Sort
 
   function buildMaxHeap(sortArray) {
-    
+
     const arrLen = sortArray.length;
     let halfArrLen = arrLen / 2;
     let n = halfArrLen >> 0 // * OR Math.floor() OR a | symbol OR ~~ symbol to floor the calc results
+
+    for (let i=n; i>=0; i--) {
+      heapify(sortArray, n, i);
+    }
 
   }
 
