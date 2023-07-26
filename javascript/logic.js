@@ -49,7 +49,13 @@ console.log(sortArray);
   }
 
   // * swapValues function that takes in an array and 2 consecutive indexes as parameters and swaps the index values 
-  function swapValues(sortArray, i, j) {
+  // function swapValues(sortArray, i, j) {
+  //   const temporarySwapValue = sortArray[i];
+  //   sortArray[i] = sortArray[j];
+  //   sortArray[j] = temporarySwapValue;
+  // }
+  // OR arrow function
+  let swapValues = (sortArray, i, j) => {
     const temporarySwapValue = sortArray[i];
     sortArray[i] = sortArray[j];
     sortArray[j] = temporarySwapValue;
