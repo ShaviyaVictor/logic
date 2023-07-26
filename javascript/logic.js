@@ -16,6 +16,10 @@ console.log(sortArray);
 
   // ? 4] =======> Heap Sort
 
+  function heapSorting(sortArray) {
+    buildMaxHeap(sortArray);
+  }
+
   function buildMaxHeap(sortArray) {
 
     const arrLen = sortArray.length;
