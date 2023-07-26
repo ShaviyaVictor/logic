@@ -12,6 +12,12 @@
 let sortArray = [80, 5, 8, 25, 10, 40, 33, 14];
 console.log(sortArray);
 
+// #####  Day41:  26072023    #####
+
+  // ? 4] =======> Heap Sort
+
+// #####    26072023    #####
+
 // #####  Day40:  25072023    #####
 
   // ? 3] =======> Quick Sort
@@ -74,7 +80,7 @@ console.log(sortArray);
     }
 
     let divide2Two = sortArray.length / 2;
-    const mid = ~~ divide2Two // * or ose Math.floor() to catch odd numbered arrays
+    const mid = ~~ divide2Two // * or use Math.floor() to catch odd numbered arrays
     const left = sortArray.slice(0, mid);
     const right = sortArray.slice(mid);
     // console.log(right)
@@ -96,7 +102,7 @@ console.log(sortArray);
     // a while loop that ensures that the program runs as long as the left & right sides have values 
     while (l < left.length && r < right.length) {
       // pushing the values to the initialized variable
-      // TODO -> look into: not yet being able to expalin the below if condition 
+      // TODO -> look into: not yet being able to explain the below if condition 
       if (left[l] < right[r]) {
         mergeResults.push(left[l++]);
       } else {
