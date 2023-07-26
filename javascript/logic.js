@@ -17,8 +17,22 @@ console.log(sortArray);
   // ? 4] =======> Heap Sort
 
   function heapSorting(sortArray) {
+    
     buildMaxHeap(sortArray);
+
+    let starter = sortArray.length - 1;
+    for (let i=starter; i>=1; i++) {
+      swapHeapValues(sortArray, 0, i);
+      heapify(sortArray, i, 0);
+    }
+
+    return sortArray;
+
   }
+  // * when I uncomment the below to run the heapSorting function the logic breaks;
+  // * and I get an aw snap client error 
+  // heapSorting(sortArray);
+  // console.log(sortArray);
 
   function buildMaxHeap(sortArray) {
 
