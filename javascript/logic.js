@@ -16,6 +16,14 @@ console.log(sortArray);
 
   // ? 4] =======> Heap Sort
 
+  function buildMaxHeap(sortArray) {
+    
+    const arrLen = sortArray.length;
+    let halfArrLen = arrLen / 2;
+    let n = halfArrLen >> 0 // * OR Math.floor() OR a | symbol OR ~~ symbol to floor the calc results
+
+  }
+
   function heapify(sortArray, n, i) {
     let largest = i;
     const leftHeap = 2 * i + 1;
