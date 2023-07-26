@@ -21,6 +21,17 @@ console.log(sortArray);
     const leftHeap = 2 * i + 1;
     const rightHeap = 2 * i + 1;
 
+    if (leftHeap < n && sortArray[leftHeap] > sortArray[largest]) {
+      largest = leftHeap;
+    }
+    else if (rightHeap < n && sortArray[rightHeap] > sortArray[largest]) {
+      largest = rightHeap;
+    }
+    else if (largest !== i) {
+      swapHeapValues(sortArray, i, largest);
+      heapify(sortArray, n, largest);
+    }
+
   }
 
   function swapHeapValues(sortArray, i, j) {
@@ -28,7 +39,7 @@ console.log(sortArray);
     let temporaryHeapValue = sortArray[i];
     sortArray[i] = sortArray[j];
     sortArray[j] = temporaryHeapValue;
-    
+
   }
 
 // #####    26072023    #####
