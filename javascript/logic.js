@@ -16,10 +16,19 @@ console.log(sortArray);
 
   // ? 4] =======> Heap Sort
 
+  function heapify(sortArray, n, i) {
+    let largest = i;
+    const leftHeap = 2 * i + 1;
+    const rightHeap = 2 * i + 1;
+
+  }
+
   function swapHeapValues(sortArray, i, j) {
+
     let temporaryHeapValue = sortArray[i];
     sortArray[i] = sortArray[j];
     sortArray[j] = temporaryHeapValue;
+    
   }
 
 // #####    26072023    #####
