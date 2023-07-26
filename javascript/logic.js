@@ -16,6 +16,12 @@ console.log(sortArray);
 
   // ? 4] =======> Heap Sort
 
+  function swapHeapValues(sortArray, i, j) {
+    let temporaryHeapValue = sortArray[i];
+    sortArray[i] = sortArray[j];
+    sortArray[j] = temporaryHeapValue;
+  }
+
 // #####    26072023    #####
 
 // #####  Day40:  25072023    #####
@@ -47,21 +53,21 @@ console.log(sortArray);
     for (let j=left; j<right; j++) {
       if (sortArray[j] <= pivot) {
         i++;
-        swapValues(sortArray, i, j);
+        swapQuickValues(sortArray, i, j);
       }
     }
-    swapValues(sortArray, i + 1, right);
+    swapQuickValues(sortArray, i + 1, right);
     return i + 1;
   }
 
-  // * swapValues function that takes in an array and 2 consecutive indexes as parameters and swaps the index values 
-  // function swapValues(sortArray, i, j) {
+  // * swapQuickValues function that takes in an array and 2 consecutive indexes as parameters and swaps the index values 
+  // function swapQuickValues(sortArray, i, j) {
   //   const temporarySwapValue = sortArray[i];
   //   sortArray[i] = sortArray[j];
   //   sortArray[j] = temporarySwapValue;
   // }
   // OR arrow function
-  let swapValues = (sortArray, i, j) => {
+  let swapQuickValues = (sortArray, i, j) => {
     const temporarySwapValue = sortArray[i];
     sortArray[i] = sortArray[j];
     sortArray[j] = temporarySwapValue;
