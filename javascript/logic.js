@@ -32,7 +32,7 @@ console.log(sortArray);
   // * when I uncomment the below to run the heapSorting function the logic breaks;
   // * and I get an aw snap client error 
   // heapSorting(sortArray);
-  // console.log(sortArray);
+  console.log(sortArray);
 
   function buildMaxHeap(sortArray) {
 
