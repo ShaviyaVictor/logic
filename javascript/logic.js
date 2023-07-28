@@ -12,6 +12,135 @@
 let sortArray = [80, 5, 8, 25, 10, 40, 33, 14];
 console.log(sortArray);
 
+// #####  Day38:  22072023    #####
+
+  // ? 1] =======> Bubble Sort
+
+  function bubbleSorting(sortArray) {
+    for (let i=0; i<sortArray.length; i++) {
+      for (let j=0; j<sortArray.length -i -1; j++) {
+        // checking a condition and if it passes, we swap the values 
+        // the condition below will sort the array and arrange it in ascending order
+        if (sortArray[j] > sortArray[j + 1]) {
+          // swapping array values 
+          const temporaryBubbleValue = sortArray[j];
+          sortArray[j] = sortArray[j + 1];
+          sortArray[j + 1] = temporaryBubbleValue;
+            // TODO --> The below approaches have not worked, to revisit
+          // [sortArray[j], sortArray[j+1]] = [sortArray[j+1], sortArray[j]];
+            // OR 
+          // let prev = sortArray[j];
+          // let next = sortArray[j+1];
+          // [prev, next] = [next, prev];
+        }
+      }
+    }
+    return sortArray;
+  };
+  bubbleSorting(sortArray);
+  console.log(sortArray);
+
+// #####    22072023    #####
+
+// #####  Day39:  24072023    #####
+
+  // ? 2] =======> Merge Sort
+
+  function mergeSorting(sortArray) {
+    // To discontinue the program if the array consists of 1 item since there is nothing to sort 
+    if (sortArray.length === 1) {
+      return sortArray;
+    }
+
+    let divide2Two = sortArray.length / 2;
+    const mid = ~~ divide2Two // * or use Math.floor() to catch odd numbered arrays
+    const left = sortArray.slice(0, mid);
+    const right = sortArray.slice(mid);
+    // console.log(right)
+
+    // return a function call for the method that concats the values of the divided array 
+    return mergeTheTwo(mergeSorting(left), mergeSorting(right));
+
+  }
+  mergeSorting(sortArray);
+  console.log(sortArray);
+
+  //* function called/invoked in the above function
+  function mergeTheTwo(left, right) {
+    // variables initialization
+    const mergeResults = [];
+    let l = 0;
+    let r = 0;
+
+    // a while loop that ensures that the program runs as long as the left & right sides have values 
+    while (l < left.length && r < right.length) {
+      // pushing the values to the initialized variable
+      // TODO -> look into: not yet being able to explain the below if condition 
+      if (left[l] < right[r]) {
+        mergeResults.push(left[l++]);
+      } else {
+        mergeResults.push(right[r++]);
+      }
+    }
+
+    // concatanation of the values 
+    return mergeResults.concat(left.slice(l)).concat(right.slice(r));
+
+  }
+
+// #####    24072023    #####
+
+// #####  Day40:  25072023    #####
+
+  // ? 3] =======> Quick Sort
+
+  function quickSorting(sortArray, left = 0, right = sortArray.length - 1) {
+
+    if ( left < right) {
+      const pivotIndex = partitioningSwapValues(sortArray, left, right);
+
+      quickSorting(sortArray, left, pivotIndex - 1);
+      quickSorting(sortArray, pivotIndex + 1, right);
+
+    }
+
+    return sortArray;
+
+  }
+  // TODO -> calling the quick sort function breaks the logic, to revisit
+  // function quickSorting(sortArray, left = 0, right = sortArray.length - 1);
+  console.log(sortArray);
+
+  // * function that uses the swap function returns the following index's value
+  function partitioningSwapValues(sortArray, left, right) {
+    let pivot = sortArray[right];
+    let i = left - 1;
+
+    for (let j=left; j<right; j++) {
+      if (sortArray[j] <= pivot) {
+        i++;
+        swapQuickValues(sortArray, i, j);
+      }
+    }
+    swapQuickValues(sortArray, i + 1, right);
+    return i + 1;
+  }
+
+  // * swapQuickValues function that takes in an array and 2 consecutive indexes as parameters and swaps the index values 
+  // function swapQuickValues(sortArray, i, j) {
+  //   const temporarySwapValue = sortArray[i];
+  //   sortArray[i] = sortArray[j];
+  //   sortArray[j] = temporarySwapValue;
+  // }
+  // OR arrow function
+  let swapQuickValues = (sortArray, i, j) => {
+    const temporarySwapValue = sortArray[i];
+    sortArray[i] = sortArray[j];
+    sortArray[j] = temporarySwapValue;
+  }
+
+// #####    25072023    #####
+
 // #####  Day41:  26072023    #####
 
   // ? 4] =======> Heap Sort
@@ -73,135 +202,6 @@ console.log(sortArray);
   }
 
 // #####    26072023    #####
-
-// #####  Day40:  25072023    #####
-
-  // ? 3] =======> Quick Sort
-
-  function quickSorting(sortArray, left = 0, right = sortArray.length - 1) {
-
-    if ( left < right) {
-      const pivotIndex = partitioningSwapValues(sortArray, left, right);
-
-      quickSorting(sortArray, left, pivotIndex - 1);
-      quickSorting(sortArray, pivotIndex + 1, right);
-
-    }
-
-    return sortArray;
-
-  }
-  // TODO -> calling the quick sort function breaks the logic, to revisit
-  // function quickSorting(sortArray, left = 0, right = sortArray.length - 1);
-  console.log(sortArray);
-
-  // * function that uses the swap function returns the following index's value
-  function partitioningSwapValues(sortArray, left, right) {
-    let pivot = sortArray[right];
-    let i = left - 1;
-
-    for (let j=left; j<right; j++) {
-      if (sortArray[j] <= pivot) {
-        i++;
-        swapQuickValues(sortArray, i, j);
-      }
-    }
-    swapQuickValues(sortArray, i + 1, right);
-    return i + 1;
-  }
-
-  // * swapQuickValues function that takes in an array and 2 consecutive indexes as parameters and swaps the index values 
-  // function swapQuickValues(sortArray, i, j) {
-  //   const temporarySwapValue = sortArray[i];
-  //   sortArray[i] = sortArray[j];
-  //   sortArray[j] = temporarySwapValue;
-  // }
-  // OR arrow function
-  let swapQuickValues = (sortArray, i, j) => {
-    const temporarySwapValue = sortArray[i];
-    sortArray[i] = sortArray[j];
-    sortArray[j] = temporarySwapValue;
-  }
-
-// #####    25072023    #####
-
-// #####  Day39:  24072023    #####
-
-  // ? 2] =======> Merge Sort
-
-  function mergeSorting(sortArray) {
-    // To discontinue the program if the array consists of 1 item since there is nothing to sort 
-    if (sortArray.length === 1) {
-      return sortArray;
-    }
-
-    let divide2Two = sortArray.length / 2;
-    const mid = ~~ divide2Two // * or use Math.floor() to catch odd numbered arrays
-    const left = sortArray.slice(0, mid);
-    const right = sortArray.slice(mid);
-    // console.log(right)
-
-    // return a function call for the method that concats the values of the divided array 
-    return mergeTheTwo(mergeSorting(left), mergeSorting(right));
-
-  }
-  mergeSorting(sortArray);
-  console.log(sortArray);
-
-  //* function called/invoked in the above function
-  function mergeTheTwo(left, right) {
-    // variables initialization
-    const mergeResults = [];
-    let l = 0;
-    let r = 0;
-
-    // a while loop that ensures that the program runs as long as the left & right sides have values 
-    while (l < left.length && r < right.length) {
-      // pushing the values to the initialized variable
-      // TODO -> look into: not yet being able to explain the below if condition 
-      if (left[l] < right[r]) {
-        mergeResults.push(left[l++]);
-      } else {
-        mergeResults.push(right[r++]);
-      }
-    }
-
-    // concatanation of the values 
-    return mergeResults.concat(left.slice(l)).concat(right.slice(r));
-
-  }
-
-// #####    24072023    #####
-
-// #####  Day38:  22072023    #####
-
-  // ? 1] =======> Bubble Sort
-
-  function bubbleSorting(sortArray) {
-    for (let i=0; i<sortArray.length; i++) {
-      for (let j=0; j<sortArray.length -i -1; j++) {
-        // checking a condition and if it passes, we swap the values 
-        // the condition below will sort the array and arrange it in ascending order
-        if (sortArray[j] > sortArray[j + 1]) {
-          // swapping array values 
-          const temporaryBubbleValue = sortArray[j];
-          sortArray[j] = sortArray[j + 1];
-          sortArray[j + 1] = temporaryBubbleValue;
-            // TODO --> The below approaches have not worked, to revisit
-          // [sortArray[j], sortArray[j+1]] = [sortArray[j+1], sortArray[j]];
-            // OR 
-          // let prev = sortArray[j];
-          // let next = sortArray[j+1];
-          // [prev, next] = [next, prev];
-        }
-      }
-    }
-    return sortArray;
-  };
-  bubbleSorting(sortArray);
-  console.log(sortArray);
-
-// #####    22072023    #####
 
 
 
