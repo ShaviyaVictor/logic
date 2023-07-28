@@ -7,6 +7,10 @@
 // ! 1: Sorting Algorithms
 // TODO - after am done with the algorithms within a category, am to reorder in terms of the numbering
 
+// * The below search algorithms have different time & space complexity;
+  // * and thus each is in some way better suited for specific use cases over others
+// * When choosing, consider: the size of the data; the desired time complexity && the desired space complexity.
+
 // * Array test-case with numbers to sort
 
 let sortArray = [80, 5, 8, 25, 10, 40, 33, 14];
