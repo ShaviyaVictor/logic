@@ -7,9 +7,19 @@
 // ! 1: Searching Algorithms
 // TODO - after am done with the algorithms within a category, am to reorder in terms of the numbering
 
+let searchArray = [80, 5, 8, 25, 10, 40, 33, 14];
+console.log(searchArray);
+
 // #####  Day42:  29072023    #####
 
   // ? 1] =======> Binary Search
+
+  function binarySearching(searchArray, target) {
+    
+    let left = 0;
+    let right = searchArray.length - 1;
+
+  }
 
 // #####    29072023    #####
 
