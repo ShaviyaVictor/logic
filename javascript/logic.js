@@ -4,8 +4,16 @@
 // TODO 5 // Challenge 3: [22072023] https://medium.com/@lelianto.eko/6-algorithms-that-software-developers-must-know-40d42d4208dc  
 // TODO 5 In Progress!!! -----> 6 Algorithms that Software Developers Must Know
 
-// ! 1: Sorting Algorithms
+// ! 1: Searching Algorithms
 // TODO - after am done with the algorithms within a category, am to reorder in terms of the numbering
+
+// #####  Day42:  29072023    #####
+
+  // ? 1] =======> Binary Search
+
+// #####    29072023    #####
+
+// ! 1: Sorting Algorithms
 
 // * The below search algorithms have different time & space complexity;
   // * and thus each is in some way better suited for specific use cases over others
