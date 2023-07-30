@@ -10,6 +10,12 @@
 let searchArray = [80, 5, 8, 25, 10, 40, 33, 14];
 console.log(searchArray);
 
+// #####  Day43:  30072023    #####
+
+  // ? 2] =======> Breadth-First Search
+
+// #####    30072023    #####
+
 // #####  Day42:  29072023    #####
 
   // ? 1] =======> Binary Search
@@ -20,6 +26,7 @@ console.log(searchArray);
     let right = searchArray.length - 1;
 
     while (left <= right) {
+      // check this mid ??? I don't like it
       const mid = Math.floor((left + right) / 2);
 
       if (searchArray[mid] === target) {
