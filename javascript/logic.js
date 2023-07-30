@@ -14,6 +14,24 @@ console.log(searchArray);
 
   // ? 2] =======> Breadth-First Search
 
+  function breadthFirstSearching(root, target) {
+
+    const queue = [root];
+
+    while (queue.length > 0) {
+      
+      const node = queue.shift();
+
+      if (node.value === target) {
+        return node;
+      }
+      queue.push(...node.children);
+
+    }
+    return null;
+
+  }
+
 // #####    30072023    #####
 
 // #####  Day42:  29072023    #####
