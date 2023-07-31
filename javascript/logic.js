@@ -20,6 +20,15 @@ console.log(searchArray);
       return root;
     }
 
+    for (const child of root.children) {
+      const result = depthFirstSearching(child, target);
+      if (result) {
+        return result;
+      }
+    }
+    
+    return null;
+
   }
 
 // #####    31072023    #####
