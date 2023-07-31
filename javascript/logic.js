@@ -14,6 +14,14 @@ console.log(searchArray);
 
   // ? 3] =======> Depth-First Search
 
+  function depthFirstSearching(root, target) {
+
+    if (root.value === target) {
+      return root;
+    }
+
+  }
+
 // #####    31072023    #####
 
 // #####  Day43:  30072023    #####
