@@ -60,6 +60,9 @@ console.log(searchArray);
 // #####  Day42:  29072023    #####
 
   // ? 1] =======> Binary Search
+  // * The function will take an array 'searchArray' and a targeted value 'target',
+    // * and then returns the index of the target value in the array if it exists;
+      // * or -1 if the target does not exist
 
   function binarySearching(searchArray, target) {
     
