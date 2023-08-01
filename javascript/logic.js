@@ -85,6 +85,16 @@ console.log(searchArray);
 
   }
 
+  // example
+  const binaryTarget = 25;
+  
+  const binaryResult = binarySearching(searchArray, binaryTarget);
+  if (binaryResult === -1) {
+    console.log(`${binaryTarget} not found in the array`);
+  } else {
+    console.log(`${binaryTarget} found at index ${binaryResult}`);
+  }
+
 // #####    29072023    #####
 
 // ! 1: Sorting Algorithms
