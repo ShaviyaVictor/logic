@@ -1,4 +1,4 @@
-
+'use strict'
 
 
 // TODO 5 // Challenge 3: [22072023] https://medium.com/@lelianto.eko/6-algorithms-that-software-developers-must-know-40d42d4208dc  
