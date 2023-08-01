@@ -89,12 +89,14 @@ console.log(searchArray);
   // TODO - SOme values even if they are in the array, they algo seems not to find them, look into that!
   const binaryTarget = 25;
   
+  // * calling the binary search function defined up with an array targeting a value 25 at index 3
   const binaryResult = binarySearching(searchArray, binaryTarget);
   if (binaryResult === -1) {
     console.log(`${binaryTarget} not found in the array`);
   } else {
     console.log(`${binaryTarget} found at index ${binaryResult}`);
   }
+  // * the code checks the results and outputs the appropriate message to the console based on the if statement checks 
 
 // #####    29072023    #####
 
