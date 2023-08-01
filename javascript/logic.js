@@ -86,6 +86,7 @@ console.log(searchArray);
   }
 
   // example
+  // TODO - SOme values even if they are in the array, they algo seems not to find them, look into that!
   const binaryTarget = 25;
   
   const binaryResult = binarySearching(searchArray, binaryTarget);
