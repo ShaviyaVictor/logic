@@ -81,6 +81,11 @@ console.log(searchArray);
   let breadthTarget = 5;
 
   let breadthResult = breadthFirstSearching(tree, target);
+  if (!breadthResult) {
+    console.log(`${breadthTarget} not found in the tree`);
+  } else {
+    console.log(`${breadthTarget} found with value ${breadthResult.value}`);
+  }
 
 // #####    30072023    #####
 
