@@ -80,12 +80,13 @@ console.log(searchArray);
   };
   let breadthTarget = 5;
 
-  let breadthResult = breadthFirstSearching(tree, target);
-  if (!breadthResult) {
-    console.log(`${breadthTarget} not found in the tree`);
-  } else {
-    console.log(`${breadthTarget} found with value ${breadthResult.value}`);
-  }
+  // TODO -> the below check for breadth algo is not working as expected, to get back to it 
+  // let breadthResult = breadthFirstSearching(tree, target);
+  // if (!breadthResult) {
+  //   console.log(`${breadthTarget} not found in the tree`);
+  // } else {
+  //   console.log(`${breadthTarget} found with value ${breadthResult.value}`);
+  // }
 
 // #####    30072023    #####
 
