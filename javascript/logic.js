@@ -22,7 +22,7 @@ console.log(searchArray);
 
     for (const child of root.children) {
       const result = depthFirstSearching(child, target);
-      if (result) {
+      if (result) {                         
         return result;
       }
     }
@@ -36,6 +36,9 @@ console.log(searchArray);
 // #####  Day43:  30072023    #####
 
   // ? 2] =======> Breadth-First Search
+  // * This function takes a tree represented by a root node and a target value;
+    // * and then returns the node in the tree with the target value if it exists
+    // * or a NULL if it does not exist 
 
   function breadthFirstSearching(root, target) {
 
