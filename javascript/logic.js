@@ -80,6 +80,8 @@ console.log(searchArray);
   };
   let breadthTarget = 5;
 
+  let breadthResult = breadthFirstSearching(tree, target);
+
 // #####    30072023    #####
 
 // #####  Day42:  29072023    #####
