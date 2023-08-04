@@ -34,6 +34,30 @@ console.log(searchArray);
 
   }
 
+  // example
+  const depthTree = {
+    value: 1,
+    children: [
+      {
+        value: 2,
+        children: [
+          { value: 4, children: [] },
+          { value: 5, children: [] }
+        ]
+      },
+      {
+        value: 3,
+        children: [
+          { value: 6, children: [] },
+          { value: 7, children: [] }
+        ]
+      },
+    ]
+  };
+  let depthTarget = 5;
+
+
+
 // #####    31072023    #####
 
 // #####  Day43:  30072023    #####
