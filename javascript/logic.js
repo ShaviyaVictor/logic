@@ -13,6 +13,9 @@ console.log(searchArray);
 // #####  Day44:  31072023    #####
 
   // ? 3] =======> Depth-First Search
+  // * The function takes a root node and a target value,
+    // * and then returns the node in the tree with the target value if it exists
+    // * or NULL if it does not exist 
 
   function depthFirstSearching(root, target) {
 
