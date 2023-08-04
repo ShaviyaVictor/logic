@@ -385,6 +385,7 @@ console.log(sortArray);
   let array2ObjectsArray = objects2Arrays.map((element) => {
     return Object.fromEntries(element);
   });
+  console.log(array2ObjectsArray);
 
 // #####    21072023    #####
 
