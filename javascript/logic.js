@@ -7,9 +7,6 @@
 // ! 1: Searching Algorithms
 // TODO - after am done with the algorithms within a category, am to reorder in terms of the numbering
 
-let searchArray = [80, 5, 8, 25, 10, 40, 33, 14];
-console.log(searchArray);
-
 // #####  Day44:  31072023    #####
 
   // ? 3] =======> Depth-First Search
@@ -62,6 +59,7 @@ console.log(searchArray);
   } else {
     console.log(`${ depthTarget } found with the value ${depthResult.value}`);
   }
+  // * the function returns the node in the tree with a value of 5
 
 // #####    31072023    #####
 
@@ -129,6 +127,9 @@ console.log(searchArray);
     // * and then returns the index of the target value in the array if it exists;
       // * or -1 if the target does not exist
 
+  let searchArray = [80, 5, 8, 25, 10, 40, 33, 14];
+  console.log(searchArray);
+      
   function binarySearching(searchArray, target) {
     
     let left = 0;
