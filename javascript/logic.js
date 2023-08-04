@@ -56,7 +56,12 @@ console.log(searchArray);
   };
   let depthTarget = 5;
 
-
+  let depthResult = depthFirstSearching(depthTree, depthTarget);
+  if (!depthResult) {
+    console.log(`${ depthTarget } not found in the tree!`);
+  } else {
+    console.log(`${ depthTarget } found with the value ${depthResult.value}`);
+  }
 
 // #####    31072023    #####
 
