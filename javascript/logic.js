@@ -7,6 +7,52 @@
 // ! 1: Searching Algorithms
 // TODO - after am done with the algorithms within a category, am to reorder in terms of the numbering
 
+// #####  Day42:  29072023    #####
+
+  // ? 1] =======> Binary Search
+  // * The function will take an array 'searchArray' and a targeted value 'target',
+    // * and then returns the index of the target value in the array if it exists;
+      // * or -1 if the target does not exist
+
+  let searchArray = [80, 5, 8, 25, 10, 40, 33, 14];
+  console.log(searchArray);
+      
+  function binarySearching(searchArray, target) {
+    
+    let left = 0;
+    let right = searchArray.length - 1;
+
+    while (left <= right) {
+      // check this mid ??? I don't like it
+      const mid = Math.floor((left + right) / 2);
+
+      if (searchArray[mid] === target) {
+        return mid;
+      } else if (searchArray[mid] < target) {
+        left = mid + 1;
+      } else {
+        right = mid -1;
+      }
+    }
+    return -1;
+
+  }
+
+  // example
+  // TODO - Some values even if they are in the array, they algo seems not to find them, look into that!
+  const binaryTarget = 25;
+  
+  // * calling the binary search function defined up with an array targeting a value 25 at index 3
+  const binaryResult = binarySearching(searchArray, binaryTarget);
+  if (binaryResult === -1) {
+    console.log(`${binaryTarget} not found in the array`);
+  } else {
+    console.log(`${binaryTarget} found at index ${binaryResult}`);
+  }
+  // * the code checks the results and outputs the appropriate message to the console based on the if statement checks 
+
+// #####    29072023    #####
+
 // #####  Day44:  31072023    #####
 
   // ? 3] =======> Depth-First Search
@@ -119,52 +165,6 @@
   // }
 
 // #####    30072023    #####
-
-// #####  Day42:  29072023    #####
-
-  // ? 1] =======> Binary Search
-  // * The function will take an array 'searchArray' and a targeted value 'target',
-    // * and then returns the index of the target value in the array if it exists;
-      // * or -1 if the target does not exist
-
-  let searchArray = [80, 5, 8, 25, 10, 40, 33, 14];
-  console.log(searchArray);
-      
-  function binarySearching(searchArray, target) {
-    
-    let left = 0;
-    let right = searchArray.length - 1;
-
-    while (left <= right) {
-      // check this mid ??? I don't like it
-      const mid = Math.floor((left + right) / 2);
-
-      if (searchArray[mid] === target) {
-        return mid;
-      } else if (searchArray[mid] < target) {
-        left = mid + 1;
-      } else {
-        right = mid -1;
-      }
-    }
-    return -1;
-
-  }
-
-  // example
-  // TODO - Some values even if they are in the array, they algo seems not to find them, look into that!
-  const binaryTarget = 25;
-  
-  // * calling the binary search function defined up with an array targeting a value 25 at index 3
-  const binaryResult = binarySearching(searchArray, binaryTarget);
-  if (binaryResult === -1) {
-    console.log(`${binaryTarget} not found in the array`);
-  } else {
-    console.log(`${binaryTarget} found at index ${binaryResult}`);
-  }
-  // * the code checks the results and outputs the appropriate message to the console based on the if statement checks 
-
-// #####    29072023    #####
 
 // ! 1: Sorting Algorithms
 
