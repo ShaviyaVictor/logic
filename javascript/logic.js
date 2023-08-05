@@ -53,62 +53,6 @@
 
 // #####    29072023    #####
 
-// #####  Day44:  31072023    #####
-
-  // ? 3] =======> Depth-First Search
-  // * The function takes a root node and a target value,
-    // * and then returns the node in the tree with the target value if it exists
-    // * or NULL if it does not exist 
-
-  function depthFirstSearching(root, target) {
-
-    if (root.value === target) {
-      return root;
-    }
-
-    for (const child of root.children) {
-      const result = depthFirstSearching(child, target);
-      if (result) {                         
-        return result;
-      }
-    }
-    
-    return null;
-
-  }
-
-  // example
-  const depthTree = {
-    value: 1,
-    children: [
-      {
-        value: 2,
-        children: [
-          { value: 4, children: [] },
-          { value: 5, children: [] }
-        ]
-      },
-      {
-        value: 3,
-        children: [
-          { value: 6, children: [] },
-          { value: 7, children: [] }
-        ]
-      },
-    ]
-  };
-  let depthTarget = 5;
-
-  let depthResult = depthFirstSearching(depthTree, depthTarget);
-  if (!depthResult) {
-    console.log(`${ depthTarget } not found in the tree!`);
-  } else {
-    console.log(`${ depthTarget } found with the value ${depthResult.value}`);
-  }
-  // * the function returns the node in the tree with a value of 5
-
-// #####    31072023    #####
-
 // #####  Day43:  30072023    #####
 
   // ? 2] =======> Breadth-First Search
@@ -165,6 +109,62 @@
   // }
 
 // #####    30072023    #####
+
+// #####  Day44:  31072023    #####
+
+  // ? 3] =======> Depth-First Search
+  // * The function takes a root node and a target value,
+    // * and then returns the node in the tree with the target value if it exists
+    // * or NULL if it does not exist 
+
+  function depthFirstSearching(root, target) {
+
+    if (root.value === target) {
+      return root;
+    }
+
+    for (const child of root.children) {
+      const result = depthFirstSearching(child, target);
+      if (result) {                         
+        return result;
+      }
+    }
+    
+    return null;
+
+  }
+
+  // example
+  const depthTree = {
+    value: 1,
+    children: [
+      {
+        value: 2,
+        children: [
+          { value: 4, children: [] },
+          { value: 5, children: [] }
+        ]
+      },
+      {
+        value: 3,
+        children: [
+          { value: 6, children: [] },
+          { value: 7, children: [] }
+        ]
+      },
+    ]
+  };
+  let depthTarget = 5;
+
+  let depthResult = depthFirstSearching(depthTree, depthTarget);
+  if (!depthResult) {
+    console.log(`${ depthTarget } not found in the tree!`);
+  } else {
+    console.log(`${ depthTarget } found with the value ${depthResult.value}`);
+  }
+  // * the function returns the node in the tree with a value of 5
+
+// #####    31072023    #####
 
 // ! 1: Sorting Algorithms
 
