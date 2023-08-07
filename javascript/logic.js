@@ -11,6 +11,18 @@
     // * and reusing the solutions to these sub-problems to find the solution to the original problem.
   // * Essentially, it is used to avoid redundant calculations be memorizing intermediate results and reusing them as needed.
 
+  // example - finding the nth Fibonacci number 
+  function fibonacci(n, memo={}) {
+    if (n <= 0) return 0;
+    if (n === 1) return 1;
+    if (memo[n]) return memo[n];
+
+    memo[n] = fibonacci(n -1, memo) + fibonacci(n - 2, memo);
+
+    return memo[n];
+  }
+  console.log(fibonacci(10));
+
 // #####    07082023    #####
 
 // ! 1: Searching Algorithms
