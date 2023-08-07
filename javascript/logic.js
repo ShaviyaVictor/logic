@@ -7,6 +7,9 @@
 // #####  Day45:  07082023    #####
 
   // ? Dynamic Programming
+  // * Dynamic Programming - is a technique for solving problems by breaking them down into smaller sub-problems 
+    // * and reusing the solutions to these sub-problems to find the solution to the original problem.
+  // * Essentially, it is used to avoid redundant calculations be memorizing intermediate results and reusing them as needed.
 
 // #####    07082023    #####
 
