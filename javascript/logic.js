@@ -4,14 +4,14 @@
 // TODO 5 // Challenge 3: [22072023] https://medium.com/@lelianto.eko/6-algorithms-that-software-developers-must-know-40d42d4208dc  
 // TODO 5 In Progress!!! -----> 6 Algorithms that Software Developers Must Know
 
-// #####  Day45:  06082023    #####
+// #####  Day45:  07082023    #####
 
-  // ? Challenge topic here...
+  // ? Dynamic Programming
 
-// #####    06082023    #####
+// #####    07082023    #####
 
 // ! 1: Searching Algorithms
-// TODO - after am done with the algorithms within a category, am to reorder in terms of the numbering
+// TODO - Algorithms have been re-ordered with in a chronological order of impl
 
 // #####  Day42:  29072023    #####
 
