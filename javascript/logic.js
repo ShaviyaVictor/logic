@@ -23,6 +23,10 @@
   }
   console.log(fibonacci(10));
 
+  // * the `fibonacci` function uses a memorization technique to store intermediate results in an object passed as an argument.
+  // * This allows the function to reuse the solutions to sub-problems, improving the time complexity of the calculation
+  // The nth Fibonnaci number is accessed be calling the function and declaring n number 
+
 // #####    07082023    #####
 
 // ! 1: Searching Algorithms
