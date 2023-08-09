@@ -18,6 +18,11 @@
   }
   console.log(factorial(5));
 
+  // * The Factorial of a whole number 'n' is defined as the product of that number with every whole number less than or equal to 'n' till 1.
+  // * In the above example, the factorial function calls itself recursively until the base case is reached, where n===1.
+  // * The function then returns the product of n and the factorial of n-1, which is the result of the recursive call. 
+  // * And hence the solution to the original problem is obtained by combining the solutions to the sub-problems in this manner. 
+
 // #####    09082023    #####
 
 // #####  Day45:  07082023    #####
