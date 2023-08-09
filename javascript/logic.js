@@ -4,11 +4,15 @@
 // TODO 5 // Challenge 3: [22072023] https://medium.com/@lelianto.eko/6-algorithms-that-software-developers-must-know-40d42d4208dc  
 // TODO 5 In Progress!!! -----> 6 Algorithms that Software Developers Must Know
 
-// #####  Day46:  08082023    #####
+// #####  Day46:  09082023    #####
 
   // ? Recursion Algorithm
+  // * Recursion is a technique where a function calls itself in order to solve a problem by dividing it into smaller sub-problems.
+  // * The sub-problems are solved recursively, and the solutions to the sub-problems are combined to find the solution to the original problem
+  // * This technique is useful for solving problems that have a recursive structure, where the solution to the problem can be expressed in terms of solutions to smaller instances of the same problem
+  
 
-// #####    08082023    #####
+// #####    09082023    #####
 
 // #####  Day45:  07082023    #####
 
