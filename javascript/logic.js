@@ -10,7 +10,13 @@
   // * Recursion is a technique where a function calls itself in order to solve a problem by dividing it into smaller sub-problems.
   // * The sub-problems are solved recursively, and the solutions to the sub-problems are combined to find the solution to the original problem
   // * This technique is useful for solving problems that have a recursive structure, where the solution to the problem can be expressed in terms of solutions to smaller instances of the same problem
-  
+
+  // example - calculating the factorial of a given number
+  function factorial(n) {
+    if (n===1) return 1;
+    return n * factorial(n-1);
+  }
+  console.log(factorial(5));
 
 // #####    09082023    #####
 
