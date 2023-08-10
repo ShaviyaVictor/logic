@@ -7,6 +7,7 @@
 // #####  Day47:  10082023    #####
 
   // ? Divide & Conquer Algorithm
+  // ! A year of Dividing and Conquering - it is my BIRTHDAY! Thank You God!
 
 // #####    10082023    #####
 
