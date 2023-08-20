@@ -9,6 +9,9 @@
   // ? Divide & Conquer Algorithm
   // ! A year of Dividing and Conquering - it is my BIRTHDAY! Thank You God!
 
+  // example - finding the maximum number in an array using this algo
+  
+
 // #####    20082023    #####
 
 // #####  Day46:  09082023    #####
