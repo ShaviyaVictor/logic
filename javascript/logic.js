@@ -7,10 +7,12 @@
 // #####  Day47:  20082023    #####
 
   // ? Divide & Conquer Algorithm
-  // ! A year of Dividing and Conquering - it is my BIRTHDAY! Thank You God!
+  // ! A year of Dividing and Conquering - it is my BIRTHDAY! Thank You God! 10082023-halted for TechSol work & resumed the impl on 20082023
 
   // example - finding the maximum number in an array using this algo
-  
+  function max(array, start, end) {
+    if (start === end) return array[start];
+  }
 
 // #####    20082023    #####
 
