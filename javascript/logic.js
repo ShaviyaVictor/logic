@@ -27,6 +27,10 @@
   const array2DivAndConq = [1, 2, 6, 3, 4, 5];
   console.log(max(array2DivAndConq, 0, array2DivAndConq.length - 1));
 
+  // * The custom max() function takes 3 inputs, the array itself, the 1st & last values of the array 
+  // * The array is then divided into 2 halves, & the maximum num in each half is found by calling the custom max function recursvely.
+  // * The final result is the maximum of the two results, which then becomes the maximum value in the entire array.
+
 // #####    20082023    #####
 
 // #####  Day46:  09082023    #####
