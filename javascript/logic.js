@@ -6,7 +6,7 @@
 
 // #####  Day47:  20082023    #####
 
-  // ? Divide & Conquer Algorithm
+  // ! 5: Divide & Conquer Algorithm
   // ! A year of Dividing and Conquering - it is my BIRTHDAY! Thank You God! 10082023-halted for TechSol work & resumed the impl on 20082023
   // * Divide & Conquer Algorithm is an algo technique where a problem is divided into smaller sub-problems that can be solved more easily.
     // * then the solutions to the sub-problems are then combined to find the solution to the original problem.
@@ -24,14 +24,14 @@
     return Math.max(leftMax, rightMax);
   }
   
-  const array2DivAndConq = [1, 2, 3, 4, 5];
+  const array2DivAndConq = [1, 2, 6, 3, 4, 5];
   console.log(max(array2DivAndConq, 0, array2DivAndConq.length - 1));
 
 // #####    20082023    #####
 
 // #####  Day46:  09082023    #####
 
-  // ? Recursion Algorithm
+  // ! 4: Recursion Algorithm
   // * Recursion is a technique where a function calls itself in order to solve a problem by dividing it into smaller sub-problems.
   // * The sub-problems are solved recursively, and the solutions to the sub-problems are combined to find the solution to the original problem
   // * This technique is useful for solving problems that have a recursive structure, where the solution to the problem can be expressed in terms of solutions to smaller instances of the same problem
@@ -52,7 +52,7 @@
 
 // #####  Day45:  07082023    #####
 
-  // ? Dynamic Programming
+  // ! 3: Dynamic Programming
   // * Dynamic Programming - is a technique for solving problems by breaking them down into smaller sub-problems 
     // * and reusing the solutions to these sub-problems to find the solution to the original problem.
   // * Essentially, it is used to avoid redundant calculations be memorizing intermediate results and reusing them as needed.
@@ -75,7 +75,7 @@
 
 // #####    07082023    #####
 
-// ! 1: Searching Algorithms
+// ! 2: Searching Algorithms
 // TODO - Algorithms have been re-ordered with in a chronological order of impl
 
 // #####  Day42:  29072023    #####
