@@ -8,6 +8,9 @@
 
   // ? Divide & Conquer Algorithm
   // ! A year of Dividing and Conquering - it is my BIRTHDAY! Thank You God! 10082023-halted for TechSol work & resumed the impl on 20082023
+  // * Divide & Conquer Algorithm is an algo technique where a problem is divided into smaller sub-problems that can be solved more easily.
+    // * then the solutions to the sub-problems are then combined to find the solution to the original problem.
+  // * This technique is useful for solving problems that can be broken down into smaller sub-problems that are similar to the original problem.
 
   // example - finding the maximum number in an array using this algo
   function max(array, start, end) {
