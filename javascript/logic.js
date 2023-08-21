@@ -12,9 +12,12 @@
   // example - finding the maximum number in an array using this algo
   function max(array, start, end) {
     if (start === end) return array[start];
+    // dividing the array into 2 part parts
     const mid = Math.floor((start + end) / 2); // ~~
+    // getting the max from both sides using the custom max function
     const leftMax = max(array, start, mid);
     const rightMax = max(array, mid + 1, end);
+    // determining the max btwn the 2 found values on top
     return Math.max(leftMax, rightMax);
   }
   
