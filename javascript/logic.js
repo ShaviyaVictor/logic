@@ -19,8 +19,12 @@
 
   function hash(message) {
     return crypto.createHash("sha256")
-      .update(message).digest("hex");
+      .update(message)
+      .digest("hex");
   }
+
+  let hashMessage = "ShavyaVicta's secreting";
+  console.log(hash(hashMessage));
 
 // #####    22082023    #####
 
