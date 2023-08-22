@@ -7,7 +7,13 @@
 // #####  Day48:  22082023    #####
 
   // ! 6: Hashing Technique
-
+  // * Hashing is a technique used in computer science to map data of arbitrary size / of large size to data of a fixed size.
+  // * A hash function takes in an Input, known as a message or pre-Image;
+    // * and returns a fixed-size string of characters, known as a hash or digest.
+  // * The same Input will always produce the same hash/digest;
+    // * but even a small change in the input will result in a completely different hash.
+  // * In JavaScript, hashes can be generated using the `crypto` module, which provides `cryptographic functionality`.
+  
 // #####    22082023    #####
 
 // #####  Day47:  20082023    #####
