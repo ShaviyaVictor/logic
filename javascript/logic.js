@@ -14,6 +14,14 @@
     // * but even a small change in the input will result in a completely different hash.
   // * In JavaScript, hashes can be generated using the `crypto` module, which provides `cryptographic functionality`.
   
+  // example - using `crypto` module to generate a SHA-256 hash
+  const crypto = require("crypto");
+
+  function hash(message) {
+    return crypto.createHash("sha256")
+      .update(message).digest("hex");
+  }
+
 // #####    22082023    #####
 
 // #####  Day47:  20082023    #####
