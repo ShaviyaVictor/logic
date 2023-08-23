@@ -271,18 +271,18 @@
 
 // #####    31072023    #####
 
+// ! 1: Sorting Algorithms
+
+// * The below search algorithms have different time & space complexity;
+  // * and thus each is in some way better suited for specific use cases over others
+// * When choosing, consider: the size of the data; the desired time complexity && the desired space complexity.
+
+// * Array test-case with numbers to sort
+
+let sortArray = [80, 5, 8, 25, 10, 40, 33, 14];
+console.log(sortArray);
+
 // #####  Day38:  22072023    #####
-
-  // ! 1: Sorting Algorithms
-
-  // * The below search algorithms have different time & space complexity;
-    // * and thus each is in some way better suited for specific use cases over others
-  // * When choosing, consider: the size of the data; the desired time complexity && the desired space complexity.
-
-  // * Array test-case with numbers to sort
-
-  let sortArray = [80, 5, 8, 25, 10, 40, 33, 14];
-  console.log(sortArray);
 
   // ? 1] =======> Bubble Sort
 
