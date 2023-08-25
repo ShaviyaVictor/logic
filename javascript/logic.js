@@ -10,6 +10,168 @@
 
 // #####    23082023    #####
 
+// ! 2: Searching Algorithms
+// TODO - Algorithms have been re-ordered with in a chronological order of impl
+
+// #####  Day42:  29072023    #####
+
+  // ? 1] =======> Binary Search
+  // * The function will take an array 'searchArray' and a targeted value 'target',
+    // * and then returns the index of the target value in the array if it exists;
+      // * or -1 if the target does not exist
+
+  let searchArray = [80, 5, 8, 25, 10, 40, 33, 14];
+  console.log(searchArray);
+      
+  function binarySearching(searchArray, target) {
+    
+    let left = 0;
+    let right = searchArray.length - 1;
+
+    while (left <= right) {
+      // check this mid ??? I don't like it
+      const mid = Math.floor((left + right) / 2);
+
+      if (searchArray[mid] === target) {
+        return mid;
+      } else if (searchArray[mid] < target) {
+        left = mid + 1;
+      } else {
+        right = mid -1;
+      }
+    }
+    return -1;
+
+  }
+
+  // example
+  // TODO - Some values even if they are in the array, they algo seems not to find them, look into that!
+  const binaryTarget = 25;
+  
+  // * calling the binary search function defined up with an array targeting a value 25 at index 3
+  const binaryResult = binarySearching(searchArray, binaryTarget);
+  if (binaryResult === -1) {
+    console.log(`${binaryTarget} not found in the array`);
+  } else {
+    console.log(`${binaryTarget} found at index ${binaryResult}`);
+  }
+  // * the code checks the results and outputs the appropriate message to the console based on the if statement checks 
+
+// #####    29072023    #####
+
+// #####  Day43:  30072023    #####
+
+  // ? 2] =======> Breadth-First Search
+  // * This function takes a tree represented by a root node and a target value;
+    // * and then returns the node in the tree with the target value if it exists
+    // * or a NULL if it does not exist 
+
+  function breadthFirstSearching(root, target) {
+
+    const queue = [root];
+
+    while (queue.length > 0) {
+      
+      const node = queue.shift();
+
+      if (node.value === target) {
+        return node;
+      }
+      queue.push(...node.children);
+
+    }
+    return null;
+
+  }
+
+  // Example
+  const tree = {
+    value: 1,
+    children: [
+      {
+        value: 2,
+        children: [
+          { value: 4, children: [] },
+          { value: 5, children: [] }
+        ]
+      },
+      {
+        value: 3,
+        children: [
+          { value: 6, children: [] },
+          { value: 7, children: [] }
+        ]
+      },
+    ]
+  };
+  let breadthTarget = 5;
+
+  // TODO -> the below check for breadth algo is not working as expected, to get back to it 
+  // let breadthResult = breadthFirstSearching(tree, target);
+  // if (!breadthResult) {
+  //   console.log(`${breadthTarget} not found in the tree`);
+  // } else {
+  //   console.log(`${breadthTarget} found with value ${breadthResult.value}`);
+  // }
+
+// #####    30072023    #####
+
+// #####  Day44:  31072023    #####
+
+  // ? 3] =======> Depth-First Search
+  // * The function takes a root node and a target value,
+    // * and then returns the node in the tree with the target value if it exists
+    // * or NULL if it does not exist 
+
+  function depthFirstSearching(root, target) {
+
+    if (root.value === target) {
+      return root;
+    }
+
+    for (const child of root.children) {
+      const result = depthFirstSearching(child, target);
+      if (result) {                         
+        return result;
+      }
+    }
+    
+    return null;
+
+  }
+
+  // example
+  const depthTree = {
+    value: 1,
+    children: [
+      {
+        value: 2,
+        children: [
+          { value: 4, children: [] },
+          { value: 5, children: [] }
+        ]
+      },
+      {
+        value: 3,
+        children: [
+          { value: 6, children: [] },
+          { value: 7, children: [] }
+        ]
+      },
+    ]
+  };
+  let depthTarget = 5;
+
+  let depthResult = depthFirstSearching(depthTree, depthTarget);
+  if (!depthResult) {
+    console.log(`${ depthTarget } not found in the tree!`);
+  } else {
+    console.log(`${ depthTarget } found with the value ${depthResult.value}`);
+  }
+  // * the function returns the node in the tree with a value of 5
+
+// #####    31072023    #####
+
 // ! 1: Sorting Algorithms
 
 // * The below search algorithms have different time & space complexity;
@@ -310,168 +472,6 @@ console.log(sortArray);
   // The nth Fibonnaci number is accessed be calling the function and declaring n number 
 
 // #####    07082023    #####
-
-// ! 2: Searching Algorithms
-// TODO - Algorithms have been re-ordered with in a chronological order of impl
-
-// #####  Day42:  29072023    #####
-
-  // ? 1] =======> Binary Search
-  // * The function will take an array 'searchArray' and a targeted value 'target',
-    // * and then returns the index of the target value in the array if it exists;
-      // * or -1 if the target does not exist
-
-  let searchArray = [80, 5, 8, 25, 10, 40, 33, 14];
-  console.log(searchArray);
-      
-  function binarySearching(searchArray, target) {
-    
-    let left = 0;
-    let right = searchArray.length - 1;
-
-    while (left <= right) {
-      // check this mid ??? I don't like it
-      const mid = Math.floor((left + right) / 2);
-
-      if (searchArray[mid] === target) {
-        return mid;
-      } else if (searchArray[mid] < target) {
-        left = mid + 1;
-      } else {
-        right = mid -1;
-      }
-    }
-    return -1;
-
-  }
-
-  // example
-  // TODO - Some values even if they are in the array, they algo seems not to find them, look into that!
-  const binaryTarget = 25;
-  
-  // * calling the binary search function defined up with an array targeting a value 25 at index 3
-  const binaryResult = binarySearching(searchArray, binaryTarget);
-  if (binaryResult === -1) {
-    console.log(`${binaryTarget} not found in the array`);
-  } else {
-    console.log(`${binaryTarget} found at index ${binaryResult}`);
-  }
-  // * the code checks the results and outputs the appropriate message to the console based on the if statement checks 
-
-// #####    29072023    #####
-
-// #####  Day43:  30072023    #####
-
-  // ? 2] =======> Breadth-First Search
-  // * This function takes a tree represented by a root node and a target value;
-    // * and then returns the node in the tree with the target value if it exists
-    // * or a NULL if it does not exist 
-
-  function breadthFirstSearching(root, target) {
-
-    const queue = [root];
-
-    while (queue.length > 0) {
-      
-      const node = queue.shift();
-
-      if (node.value === target) {
-        return node;
-      }
-      queue.push(...node.children);
-
-    }
-    return null;
-
-  }
-
-  // Example
-  const tree = {
-    value: 1,
-    children: [
-      {
-        value: 2,
-        children: [
-          { value: 4, children: [] },
-          { value: 5, children: [] }
-        ]
-      },
-      {
-        value: 3,
-        children: [
-          { value: 6, children: [] },
-          { value: 7, children: [] }
-        ]
-      },
-    ]
-  };
-  let breadthTarget = 5;
-
-  // TODO -> the below check for breadth algo is not working as expected, to get back to it 
-  // let breadthResult = breadthFirstSearching(tree, target);
-  // if (!breadthResult) {
-  //   console.log(`${breadthTarget} not found in the tree`);
-  // } else {
-  //   console.log(`${breadthTarget} found with value ${breadthResult.value}`);
-  // }
-
-// #####    30072023    #####
-
-// #####  Day44:  31072023    #####
-
-  // ? 3] =======> Depth-First Search
-  // * The function takes a root node and a target value,
-    // * and then returns the node in the tree with the target value if it exists
-    // * or NULL if it does not exist 
-
-  function depthFirstSearching(root, target) {
-
-    if (root.value === target) {
-      return root;
-    }
-
-    for (const child of root.children) {
-      const result = depthFirstSearching(child, target);
-      if (result) {                         
-        return result;
-      }
-    }
-    
-    return null;
-
-  }
-
-  // example
-  const depthTree = {
-    value: 1,
-    children: [
-      {
-        value: 2,
-        children: [
-          { value: 4, children: [] },
-          { value: 5, children: [] }
-        ]
-      },
-      {
-        value: 3,
-        children: [
-          { value: 6, children: [] },
-          { value: 7, children: [] }
-        ]
-      },
-    ]
-  };
-  let depthTarget = 5;
-
-  let depthResult = depthFirstSearching(depthTree, depthTarget);
-  if (!depthResult) {
-    console.log(`${ depthTarget } not found in the tree!`);
-  } else {
-    console.log(`${ depthTarget } found with the value ${depthResult.value}`);
-  }
-  // * the function returns the node in the tree with a value of 5
-
-// #####    31072023    #####
 
 
 
