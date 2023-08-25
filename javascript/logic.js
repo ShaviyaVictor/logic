@@ -374,6 +374,31 @@ console.log(sortArray);
 
 // #####    31072023    #####
 
+// #####  Day45:  07082023    #####
+
+  // ! 3: Dynamic Programming
+  // * Dynamic Programming - is a technique for solving problems by breaking them down into smaller sub-problems 
+    // * and reusing the solutions to these sub-problems to find the solution to the original problem.
+  // * Essentially, it is used to avoid redundant calculations be memorizing intermediate results and reusing them as needed.
+
+  // example - finding the nth Fibonacci number 
+  function fibonacci(n, memo={}) {
+    if (n <= 0) return 0;
+    if (n === 1) return 1;
+    if (memo[n]) return memo[n];
+
+    memo[n] = fibonacci(n -1, memo) + fibonacci(n - 2, memo);
+
+    return memo[n];
+  }
+  console.log(fibonacci(10));
+
+  // * the `fibonacci` function uses a memorization technique to store intermediate results in an object passed as an argument.
+  // * This allows the function to reuse the solutions to sub-problems, improving the time complexity of the calculation
+  // The nth Fibonnaci number is accessed be calling the function and declaring n number 
+
+// #####    07082023    #####
+
 // #####  Day48:  22082023    #####
 
   // ! 6: Hashing Technique
@@ -447,31 +472,6 @@ console.log(sortArray);
   // * And hence the solution to the original problem is obtained by combining the solutions to the sub-problems in this manner. 
 
 // #####    09082023    #####
-
-// #####  Day45:  07082023    #####
-
-  // ! 3: Dynamic Programming
-  // * Dynamic Programming - is a technique for solving problems by breaking them down into smaller sub-problems 
-    // * and reusing the solutions to these sub-problems to find the solution to the original problem.
-  // * Essentially, it is used to avoid redundant calculations be memorizing intermediate results and reusing them as needed.
-
-  // example - finding the nth Fibonacci number 
-  function fibonacci(n, memo={}) {
-    if (n <= 0) return 0;
-    if (n === 1) return 1;
-    if (memo[n]) return memo[n];
-
-    memo[n] = fibonacci(n -1, memo) + fibonacci(n - 2, memo);
-
-    return memo[n];
-  }
-  console.log(fibonacci(10));
-
-  // * the `fibonacci` function uses a memorization technique to store intermediate results in an object passed as an argument.
-  // * This allows the function to reuse the solutions to sub-problems, improving the time complexity of the calculation
-  // The nth Fibonnaci number is accessed be calling the function and declaring n number 
-
-// #####    07082023    #####
 
 
 
