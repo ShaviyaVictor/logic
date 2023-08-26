@@ -420,30 +420,6 @@ console.log(sortArray);
 
 // #####    09082023    #####
 
-// #####  Day48:  22082023    #####
-
-  // ! 6: Hashing Technique
-  // * Hashing is a technique used in computer science to map data of arbitrary size / of large size to data of a fixed size.
-  // * A hash function takes in an Input, known as a message or pre-Image;
-    // * and returns a fixed-size string of characters, known as a hash or digest.
-  // * The same Input will always produce the same hash/digest;
-    // * but even a small change in the input will result in a completely different hash.
-  // * In JavaScript, hashes can be generated using the `crypto` module, which provides `cryptographic functionality`.
-  
-  // example - using `crypto` module to generate a SHA-256 hash
-  const crypto = require("crypto");
-
-  function hash(message) {
-    return crypto.createHash("sha256")
-      .update(message)
-      .digest("hex");
-  }
-
-  let hashMessage = "ShavyaVicta's secreting";
-  console.log(hash(hashMessage));
-
-// #####    22082023    #####
-
 // #####  Day47:  20082023    #####
 
   // ! 5: Divide & Conquer Algorithm
@@ -472,6 +448,30 @@ console.log(sortArray);
   // * The final result is the maximum of the two results, which then becomes the maximum value in the entire array.
 
 // #####    20082023    #####
+
+// #####  Day48:  22082023    #####
+
+  // ! 6: Hashing Technique
+  // * Hashing is a technique used in computer science to map data of arbitrary size / of large size to data of a fixed size.
+  // * A hash function takes in an Input, known as a message or pre-Image;
+    // * and returns a fixed-size string of characters, known as a hash or digest.
+  // * The same Input will always produce the same hash/digest;
+    // * but even a small change in the input will result in a completely different hash.
+  // * In JavaScript, hashes can be generated using the `crypto` module, which provides `cryptographic functionality`.
+  
+  // example - using `crypto` module to generate a SHA-256 hash
+  const crypto = require("crypto");
+
+  function hash(message) {
+    return crypto.createHash("sha256")
+      .update(message)
+      .digest("hex");
+  }
+
+  let hashMessage = "ShavyaVicta's secreting";
+  console.log(hash(hashMessage));
+
+// #####    22082023    #####
 
 
 
