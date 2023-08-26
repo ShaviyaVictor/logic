@@ -399,6 +399,27 @@ console.log(sortArray);
 
 // #####    07082023    #####
 
+// #####  Day46:  09082023    #####
+
+  // ! 4: Recursion Algorithm
+  // * Recursion is a technique where a function calls itself in order to solve a problem by dividing it into smaller sub-problems.
+  // * The sub-problems are solved recursively, and the solutions to the sub-problems are combined to find the solution to the original problem
+  // * This technique is useful for solving problems that have a recursive structure, where the solution to the problem can be expressed in terms of solutions to smaller instances of the same problem
+
+  // example - calculating the factorial of a given number
+  function factorial(n) {
+    if (n===1) return 1;
+    return n * factorial(n-1);
+  }
+  console.log(factorial(5));
+
+  // * The Factorial of a whole number 'n' is defined as the product of that number with every whole number less than or equal to 'n' till 1.
+  // * In the above example, the factorial function calls itself recursively until the base case is reached, where n===1.
+  // * The function then returns the product of n and the factorial of n-1, which is the result of the recursive call. 
+  // * And hence the solution to the original problem is obtained by combining the solutions to the sub-problems in this manner. 
+
+// #####    09082023    #####
+
 // #####  Day48:  22082023    #####
 
   // ! 6: Hashing Technique
@@ -451,27 +472,6 @@ console.log(sortArray);
   // * The final result is the maximum of the two results, which then becomes the maximum value in the entire array.
 
 // #####    20082023    #####
-
-// #####  Day46:  09082023    #####
-
-  // ! 4: Recursion Algorithm
-  // * Recursion is a technique where a function calls itself in order to solve a problem by dividing it into smaller sub-problems.
-  // * The sub-problems are solved recursively, and the solutions to the sub-problems are combined to find the solution to the original problem
-  // * This technique is useful for solving problems that have a recursive structure, where the solution to the problem can be expressed in terms of solutions to smaller instances of the same problem
-
-  // example - calculating the factorial of a given number
-  function factorial(n) {
-    if (n===1) return 1;
-    return n * factorial(n-1);
-  }
-  console.log(factorial(5));
-
-  // * The Factorial of a whole number 'n' is defined as the product of that number with every whole number less than or equal to 'n' till 1.
-  // * In the above example, the factorial function calls itself recursively until the base case is reached, where n===1.
-  // * The function then returns the product of n and the factorial of n-1, which is the result of the recursive call. 
-  // * And hence the solution to the original problem is obtained by combining the solutions to the sub-problems in this manner. 
-
-// #####    09082023    #####
 
 
 
