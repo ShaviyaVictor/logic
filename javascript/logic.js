@@ -1,8 +1,9 @@
 'use strict'
 
 
+
 // TODO 5 // Challenge 3: [22072023] https://medium.com/@lelianto.eko/6-algorithms-that-software-developers-must-know-40d42d4208dc  
-// TODO 5 In Progress!!! -----> 6 Algorithms that Software Developers Must Know
+// TODO 5 Is Now DONE!!! -----> 6 Algorithms that Software Developers Must Know
 
 // #####  Day4:  23082023    #####
 
