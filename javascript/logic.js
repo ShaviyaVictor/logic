@@ -2,7 +2,10 @@
 
 
 // TODO 6 // Challenge 4: [09092023]   
-// TODO 6 In Progress!!! -----> TBD (To Be Determined)
+// TODO 6 In Progress!!! -----> TBD (To Be Determined) 
+
+
+// ! NOTE - To start on the Python challenges when I resume
 
 
 // TODO 5 // Challenge 3: [22072023] https://medium.com/@lelianto.eko/6-algorithms-that-software-developers-must-know-40d42d4208dc  
